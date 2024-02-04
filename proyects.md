@@ -255,19 +255,19 @@ find wifi passwords using python
 find wifi Passwords Using Python This article will show you how you can find wifi passwords using python. if you forget your …
 
 ># freecodecamp
-Even or odd
-Mad Libs game
-word counter
-Biography information
-What is the acronym?
-Rock Paper and scissors
-Guess the number
-Is it palindrome?
-Tip calculator
-Email extractor
-Letter generator
+ - Even or odd
+ - Mad Libs game
+ - word counter
+ - Biography information
+ - What is the acronym?
+ - Rock Paper and scissors
+ - Guess the number
+ - Is it palindrome?
+ - Tip calculator
+ - Email extractor
+ - Letter generator
 
-> # Projects for Beginners.
+># Projects for Beginners.
 Number guessing game in Python
 Word guessing game in Python
 Hangman Game in Python
@@ -312,7 +312,7 @@ How to Create a Chatbot in Android with BrainShop API?
 Spam bot using PyAutoGUI
 Hotel Management System
 
->#Web Scraping
+># Web Scraping
 Build a COVID19 Vaccine Tracker Using Python
 Email Id Extractor Project from sites in Scrapy Python
 Automating Scrolling using Python-Opencv by Color Detection
@@ -342,7 +342,7 @@ Automated software testing with Python
 Hotword detection with Python
 Automate linkedin connections using Python
 
->#Tkinter Projects
+># Tkinter Projects
 Create First GUI Application using Python-Tkinter
 Simple GUI calculator using Tkinter
 Compound Interest GUI Calculator using Tkinter
@@ -379,7 +379,7 @@ Build a Voice Recorder GUI using Python
 Create a Sideshow application in Python
 Visiting Card Scanner GUI Application using Python
 
->#Turtle Projects
+># Turtle Projects
 Create digital clock using Python-Turtle
 Draw a Tic Tac Toe Board using Python-Turtle
 Draw Chess Board Using Turtle in Python
@@ -392,7 +392,7 @@ Create a Simple Two Player Game using Turtle in Python
 Flipping Tiles (memory game) using Python3
 Create pong game using Python – Turtle
 
->#OpenCV Projects
+># OpenCV Projects
 Extract frames using OpenCV
 Displaying the coordinates of the points clicked on the image using Python-OpenCV
 White and black dot detection
@@ -426,7 +426,7 @@ Right and Left Hand Detection Using Python
 Brightness Control With Hand Detection using OpenCV in Python
 Creating a Finger Counter Using Computer Vision and OpenCV in Python
 
->#Python Django Projects
+># Python Django Projects
 Python Web Development – Django Tutorial
 How to Create an App in Django?
 Weather app using Django
@@ -442,7 +442,7 @@ E-commerce Website using Django
 College Management System using Django – Python Project
 Create Word Counter app using Django
 
->#Python Text to Speech and Vice-Versa
+># Python Text to Speech and Vice-Versa
 Speak the meaning of the word using Python
 Convert PDF File Text to Audio Speech using Python
 Speech Recognition in Python using Google Speech API
@@ -458,7 +458,7 @@ Language Translator Using Google API in Python
 How to make a voice assistant for E-mail in Python?
 Voice Assistant for Movies using Python
 
->#More Projects on Python
+># More Projects on Python
 Tic Tac Toe GUI In Python using PyGame
 8-bit game using pygame
 Bubble sort visualizer using PyGame
