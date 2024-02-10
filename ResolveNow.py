@@ -8,3 +8,10 @@ number_two = int(input("Enter the second number: "))
 numbers_sum = number_one + number_two
 numbers_prod = number_one * number_two
 print(f"The sum of the numbers is: {numbers_sum} and the multiplication of the numbers is: {numbers_prod} ")
+
+print("Other exercises---------------------------------------")
+product_quantity = int(input("Enter the products for buying: "))
+product_price = int(input("Enter the price of the product: "))
+amount_pay = product_quantity * product_price
+print(f"the total amount to pay for client is: {amount_pay}")
+
