@@ -12,3 +12,4 @@ integer = 55
 print(type(integer))
 floating = 33.4
 print(type(floating))
+
