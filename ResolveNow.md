@@ -473,13 +473,314 @@ It is important to note that we will not load this data by assignment
 
 
 
+Write a Python program to calculate the surface area of a square given the length of one of its sides. Enhance the program to provide additional functionalities:
+
+> # Advance exercises
+
+1. Calculate the surface area of the square in square meters, square centimeters, or square millimeters based on user input.
+Plot the square using matplotlib.
+Calculate the length of the square's diagonal.
+Allow the user to input the surface area of the square and solve for the length of its side using symbolic mathematics with the sympy module.
+Ensure error handling for invalid inputs and units.
 
 
+2. This Python program allows users to input two numbers, either whole or floating-point, and performs various calculations on them, including addition, multiplication, and exponentiation. It provides options for the user to choose whether to continue with more calculations or not, and it handles errors gracefully.
+
+Functionality:
+
+Get Input Function:
+
+Defines a function get_input(prompt) to handle user input for numbers, allowing both whole and floating-point numbers.
+Provides error handling for invalid inputs, prompting the user to enter a valid number.
+Calculate Results Function:
+
+Defines a function calculate_results(num1, num2) to calculate the sum, product, and power of the two input numbers.
+Handles division by zero cases gracefully, returning None for power calculations when the exponent is zero.
+Main Program:
+
+Runs a loop to allow the user to perform multiple calculations.
+Calls get_input() to collect input from the user for the two numbers.
+Calls calculate_results() to calculate the sum, product, and power of the numbers.
+Prints the results of the calculations.
+Prompts the user to choose whether to perform another calculation or not.
+Breaks out of the loop if the user chooses not to continue.
+This program provides an interactive environment for users to perform basic mathematical calculations with error handling and flexibility for various input types.
+
+3. This Python program allows users to input information about products, including their names, prices, and quantities to be carried. The program calculates the total amount to be paid based on the provided information. It ensures that all inputs are valid and handles errors gracefully.
+
+Functionality:
+
+Calculate Total Price Function:
+
+Defines a function calculate_total_price(price, quantity) to calculate the total price of a product based on its price and the quantity to be carried.
+Validates that both price and quantity are positive numbers.
+Handle User Input Function:
+
+Defines a function get_product_info() to handle user input for products and quantities.
+Prompts the user to enter the name, price, and quantity of each product.
+Allows the user to input multiple products and quantities, terminating input by typing 'done'.
+Provides error handling for invalid inputs.
+Calculate Total Amount Function:
+
+Defines a function calculate_total_amount(products) to calculate the total amount to be paid for all products combined.
+Calls the calculate_total_price() function for each product and accumulates the total amount.
+Main Program:
+
+Executes the main program flow.
+Calls get_product_info() to collect information about the products.
+Calls calculate_total_amount() to determine the total amount to be paid.
+Prints the total amount to be paid or an error message if any input is invalid.
+This program provides a convenient way for users to input product information and obtain the total amount to be paid, ensuring accuracy and robustness through comprehensive error handling.
+
+4. Para modelar una base de datos para una empresa que produce y almacena hielo, podríamos considerar las siguientes entidades y relaciones:
+
+Productos: Para almacenar los diferentes tipos de hielo que la empresa produce.
+
+id (clave primaria)
+nombre
+descripcion
+precio_unitario
+Inventario: Para llevar un registro del stock de hielo en el almacén.
+
+id (clave primaria)
+id_producto (clave foránea referenciando a la tabla Productos)
+cantidad
+fecha_ingreso
+Clientes: Para registrar información sobre los clientes que compran el hielo.
+
+id (clave primaria)
+nombre
+direccion
+telefono
+Ventas: Para registrar las transacciones de venta de hielo.
+
+id (clave primaria)
+id_cliente (clave foránea referenciando a la tabla Clientes)
+id_producto (clave foránea referenciando a la tabla Productos)
+cantidad
+fecha_venta
+monto_total
+Con estas entidades y relaciones, puedes modelar una base de datos que permita a la empresa llevar un registro de su producción de hielo, su inventario, clientes y ventas. Además, puedes agregar más detalles o entidades según las necesidades específicas de la empresa.
 
 
+User
+agrega mas entidades por favor
+ChatGPT
+Claro, aquí tienes algunas entidades adicionales que podrían ser relevantes para una empresa que produce y almacena hielo:
 
+Proveedores: Para registrar información sobre los proveedores de los materiales necesarios para producir hielo, como agua, energía, equipos, etc.
 
+id (clave primaria)
+nombre
+direccion
+telefono
+producto_suministrado
+Pedidos de Materiales: Para registrar los pedidos realizados a los proveedores para obtener los materiales necesarios para producir hielo.
 
+id (clave primaria)
+id_proveedor (clave foránea referenciando a la tabla Proveedores)
+producto_suministrado
+cantidad
+fecha_pedido
+fecha_entrega_prevista
+Empleados: Para registrar información sobre los empleados que trabajan en la empresa.
+
+id (clave primaria)
+nombre
+direccion
+telefono
+puesto
+Producción: Para registrar los detalles de la producción de hielo, como la cantidad producida, la fecha de producción, el empleado responsable, etc.
+
+id (clave primaria)
+id_producto (clave foránea referenciando a la tabla Productos)
+cantidad_producida
+fecha_produccion
+id_empleado (clave foránea referenciando a la tabla Empleados)
+Estas entidades adicionales amplían el alcance de la base de datos para incluir información sobre proveedores, pedidos de materiales, empleados y producción, lo que proporciona un panorama más completo de las operaciones de la empresa.
+
+User
+Hazme una base de datos con toda la informacion dada
+ChatGPT
+Por supuesto, aquí tienes un esquema básico de la base de datos que incluye todas las entidades mencionadas:
+
+sql
+Copy code
+-- Tabla de Productos
+CREATE TABLE Productos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(255) NOT NULL,
+    descripcion VARCHAR(255),
+    precio_unitario DECIMAL(10, 2) NOT NULL
+);
+
+-- Tabla de Inventario
+CREATE TABLE Inventario (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    id_producto INT NOT NULL,
+    cantidad INT NOT NULL,
+    fecha_ingreso DATE NOT NULL,
+    FOREIGN KEY (id_producto) REFERENCES Productos(id)
+);
+
+-- Tabla de Clientes
+CREATE TABLE Clientes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(255) NOT NULL,
+    direccion VARCHAR(255),
+    telefono VARCHAR(20)
+);
+
+-- Tabla de Ventas
+CREATE TABLE Ventas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    id_cliente INT NOT NULL,
+    id_producto INT NOT NULL,
+    cantidad INT NOT NULL,
+    fecha_venta DATE NOT NULL,
+    monto_total DECIMAL(10, 2) NOT NULL,
+    FOREIGN KEY (id_cliente) REFERENCES Clientes(id),
+    FOREIGN KEY (id_producto) REFERENCES Productos(id)
+);
+
+-- Tabla de Proveedores
+CREATE TABLE Proveedores (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(255) NOT NULL,
+    direccion VARCHAR(255),
+    telefono VARCHAR(20),
+    producto_suministrado VARCHAR(255)
+);
+
+-- Tabla de Pedidos de Materiales
+CREATE TABLE Pedidos_Materiales (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    id_proveedor INT NOT NULL,
+    producto_suministrado VARCHAR(255),
+    cantidad INT NOT NULL,
+    fecha_pedido DATE NOT NULL,
+    fecha_entrega_prevista DATE NOT NULL,
+    FOREIGN KEY (id_proveedor) REFERENCES Proveedores(id)
+);
+
+-- Tabla de Empleados
+CREATE TABLE Empleados (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(255) NOT NULL,
+    direccion VARCHAR(255),
+    telefono VARCHAR(20),
+    puesto VARCHAR(100)
+);
+
+-- Tabla de Produccion
+CREATE TABLE Produccion (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    id_producto INT NOT NULL,
+    cantidad_producida INT NOT NULL,
+    fecha_produccion DATE NOT NULL,
+    id_empleado INT NOT NULL,
+    FOREIGN KEY (id_producto) REFERENCES Productos(id),
+    FOREIGN KEY (id_empleado) REFERENCES Empleados(id)
+);
+Este esquema define todas las tablas necesarias para almacenar la información sobre productos, inventario, clientes, ventas, proveedores, pedidos de materiales, empleados y producción. Las claves foráneas se utilizan para establecer relaciones entre las tablas cuando es necesario.
+
+User
+Agregar el turno
+ChatGPT
+Para agregar el turno a la información del empleado, puedes simplemente modificar la tabla de Empleados para incluir un campo para el turno. Aquí te muestro cómo hacerlo:
+
+sql
+Copy code
+-- Tabla de Empleados
+CREATE TABLE Empleados (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(255) NOT NULL,
+    direccion VARCHAR(255),
+    telefono VARCHAR(20),
+    puesto VARCHAR(100),
+    turno VARCHAR(50) -- Agregamos el campo turno
+);
+Con esta modificación, ahora la tabla de Empleados incluye un campo adicional llamado "turno", que puede almacenar información sobre el turno en el que trabaja cada empleado, por ejemplo, "mañana", "tarde", "noche", etc.
+
+User
+Y para la produccion
+ChatGPT
+Para agregar el turno a la información de producción, podemos modificar la tabla de Produccion para incluir un campo para el turno. Aquí te muestro cómo hacerlo:
+
+sql
+Copy code
+-- Tabla de Produccion
+CREATE TABLE Produccion (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    id_producto INT NOT NULL,
+    cantidad_producida INT NOT NULL,
+    fecha_produccion DATE NOT NULL,
+    id_empleado INT NOT NULL,
+    turno VARCHAR(50), -- Agregamos el campo turno
+    FOREIGN KEY (id_producto) REFERENCES Productos(id),
+    FOREIGN KEY (id_empleado) REFERENCES Empleados(id)
+);
+Con esta modificación, ahora la tabla de Produccion incluye un campo adicional llamado "turno", que puede almacenar información sobre el turno en el que se realizó la producción de hielo. Esto puede ser útil para rastrear la producción por turno si la empresa opera en diferentes turnos durante el día.
+
+User
+Mejor crea la tabla y realiza las asociaciones
+ChatGPT
+Claro, aquí tienes la tabla de producción modificada con el campo de turno y las asociaciones correspondientes:
+
+sql
+Copy code
+-- Tabla de Produccion
+CREATE TABLE Produccion (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    id_producto INT NOT NULL,
+    cantidad_producida INT NOT NULL,
+    fecha_produccion DATE NOT NULL,
+    id_empleado INT NOT NULL,
+    turno_id INT,
+    FOREIGN KEY (id_producto) REFERENCES Productos(id),
+    FOREIGN KEY (id_empleado) REFERENCES Empleados(id),
+    FOREIGN KEY (turno_id) REFERENCES Turnos(id)
+);
+
+-- Tabla de Turnos
+CREATE TABLE Turnos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(50) NOT NULL
+);
+
+-- Ejemplo de datos para la tabla de Turnos
+INSERT INTO Turnos (nombre) VALUES ('Mañana');
+INSERT INTO Turnos (nombre) VALUES ('Tarde');
+INSERT INTO Turnos (nombre) VALUES ('Noche');
+En esta versión, hemos creado una tabla adicional llamada "Turnos" para almacenar los diferentes turnos de trabajo. Luego, en la tabla de Produccion, hemos agregado un campo llamado "turno_id" que hace referencia al ID del turno en la tabla de Turnos. Esto nos permite asociar cada registro de producción con un turno específico.
+
+User
+Creame la nomina para esta empresa
+ChatGPT
+Para crear la tabla de nómina, primero necesitaremos definir qué información deseamos incluir en ella. Por ejemplo, podríamos incluir el salario base de cada empleado, las horas trabajadas en diferentes turnos, bonificaciones, deducciones, etc.
+
+Aquí hay una propuesta básica para la estructura de la tabla de nómina:
+
+sql
+Copy code
+-- Tabla de Nomina
+CREATE TABLE Nomina (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    id_empleado INT NOT NULL,
+    fecha_inicio_periodo DATE NOT NULL,
+    fecha_fin_periodo DATE NOT NULL,
+    salario_base DECIMAL(10, 2) NOT NULL,
+    horas_trabajadas_mañana DECIMAL(10, 2),
+    horas_trabajadas_tarde DECIMAL(10, 2),
+    horas_trabajadas_noche DECIMAL(10, 2),
+    bonificaciones DECIMAL(10, 2),
+    deducciones DECIMAL(10, 2),
+    total_salario DECIMAL(10, 2),
+    FOREIGN KEY (id_empleado) REFERENCES Empleados(id)
+);
+En esta tabla de nómina, tenemos campos para el ID del empleado, las fechas de inicio y fin del período de pago, el salario base, las horas trabajadas en diferentes turnos, bonificaciones, deducciones y el total del salario.
+
+Dependiendo de los detalles específicos de la política de nómina de la empresa, es posible que necesites ajustar esta estructura o agregar más campos. Por ejemplo, podrías querer incluir campos para impuestos, horas extras, vacaciones, etc.
 
 
 
