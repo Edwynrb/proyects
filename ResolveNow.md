@@ -783,6 +783,7 @@ En esta tabla de nómina, tenemos campos para el ID del empleado, las fechas de 
 Dependiendo de los detalles específicos de la política de nómina de la empresa, es posible que necesites ajustar esta estructura o agregar más campos. Por ejemplo, podrías querer incluir campos para impuestos, horas extras, vacaciones, etc.
 
 
+5. "Create a Python program that allows users to calculate their Body Mass Index (BMI). The program prompts users to choose between metric and imperial units for weight and height input. For metric units, users provide their weight in kilograms and height in meters, while for imperial units, users input their weight in pounds and height in inches. After inputting the necessary information, the program calculates the BMI and provides a categorization based on the calculated value (underweight, normal weight, overweight, or obesity). Users have the option to calculate their BMI multiple times and can choose to exit the program when finished."
 
 
 

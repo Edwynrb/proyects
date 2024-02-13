@@ -1,3 +1,4 @@
+"""
 side_length = int(input("Enter the side length of the surface area: "))
 surface_area = side_length * side_length
 print(f"The surface area of the square is: {surface_area}")
@@ -15,3 +16,4 @@ product_price = int(input("Enter the price of the product: "))
 amount_pay = product_quantity * product_price
 print(f"the total amount to pay for client is: {amount_pay}")
 
+"""
