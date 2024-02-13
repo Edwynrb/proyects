@@ -1,5 +1,5 @@
 ># Cruds from tutos mysql
-- Create database administration.
+- Crrreate dataabase administration.
 - Create tables: 
 - users: name and password string 30.
 - diary: name , home and phone all string.
