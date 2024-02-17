@@ -1,7 +1,6 @@
+Problems to resolve in the Python type structural, function, oop, crud, tkinter and  Flet.
 
-# Problems to resolve in the Python type structural, function, oop, crud, tkinter and  Flet.
-
-> **Basics**
+ > # **Basics**
 
 1. Find the surface area of a square knowing the value of one side. 
 2. Carry up the loads of 2 whole numbers on the keyboard and print your sum and your product. 
@@ -12,7 +11,7 @@
 7. Calculate the monthly salary of an operator knowing the number of hours worked and the value per hour.
 8. Write a program that displays the result of the following arithmetic operation on the screen
 (3+22⋅5)2.
-9. Write  a program that reads a positive integer,N, entered by the user and then displays the sum of all integers from 1 ton. The sum of then first positive integers can be calculated as follows:
+1. Write  a program that reads a positive integer,N, entered by the user and then displays the sum of all integers from 1 ton. The sum of then first positive integers can be calculated as follows:
 addition=n(n+1)2.
 1. Write a program that asks the user for their weight (in kg) and height (in meters), calculates the body mass index and stores it in a variable, and displays on the screen the sentence where is the calculated body mass index rounded Tu índice de masa corporal es <imc>with <imc>two decimals.
 2. write a program that asks the user for two integers and displays on the screen where <n> entre <m> da un cociente <c> y un resto <r>and <n>are <m>the numbers entered by the user, and <c>and <r>are the quotient and the remainder of the integer division respectively.
@@ -82,7 +81,7 @@ Also enter the number of attempts required
 
 
 
-# EXERCISES WITH  IF
+ # EXERCISES WITH  IF
 
 1. the work day is 48 hours, calculate given the hours worked with the value per hour. Show your salary and indicate overtime if you exceed the working day.
  Determine how much you should pay for a number of pencils considering that if there are 1000 or more, there is a 7% discount, taking into account that the cost per pencil is S/. 2.50; otherwise there is no discount. 
@@ -214,7 +213,7 @@ c) If the salary is greater than or equal to 500, display the salary on the scre
 1. Write a program in which: given a list of three different numerical values, their range of variation is calculated and reported (it must show the largest and smallest of them).
 
 
-# EXERCISES WITH WHILE AND FOR.
+b# EXERCISES WITH WHILE AND FOR.
 
 Create a program that prints the numbers from 1 to 100 on the screen.
 Without knowing the repetitive structures we can solve the problem using a sequential structure. We initialize a variable with the value 1, then print the variable, increment the variable again, and so on.
@@ -356,7 +355,7 @@ Enter an email by keyboard. Check if the entered string contains only one "@" ch
 Initialize a string with the string "mAriA" then call its upper(), lower() and capitalize() methods, save the returned data in another string and display it on the screen.
 
 
-#  EXERCISES OF THE LIST
+ # EXERCISES OF THE LIST
 
 
 Load a sentence by keyboard. Then show how many blank spaces were entered. Note that a blank space is equal to
@@ -475,7 +474,7 @@ It is important to note that we will not load this data by assignment
 
 Write a Python program to calculate the surface area of a square given the length of one of its sides. Enhance the program to provide additional functionalities:
 
-> # Advance exercises
+ > # Advance exercises
 
 1. Calculate the surface area of the square in square meters, square centimeters, or square millimeters based on user input.
 Plot the square using matplotlib.
