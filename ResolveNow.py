@@ -29,3 +29,12 @@ try:
     print(f"The perimeter of square is {perimeter_square}")
 except ValueError:
     print("Invalid input, Please enter a valid integer")    
+print(" Write a program in which four numbers are enter, calculate and inform the sum of the first two and the product of the third and the fourth.")
+try:
+    number_onee
+    number_twoo
+    number_three
+    number_fourth
+    
+except ValueError:
+    print("Invalid input, Please enter a value integer")
