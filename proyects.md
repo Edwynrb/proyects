@@ -1,65 +1,64 @@
-> # **Pages of proyects.**
-1. https://www.w3schools.com/python/default.asp.
-2. https://victomanolo.wordpress.com/python/
-3. https://hacerunprograma.com/
-4. https://edabit.com/challenges
-5. https://www.freecodecamp.org/espanol/news/11-proyectos-de-python-que-los-desarrolladores-junior-pueden-crear-para-practicar/
-6. https://projecteuler.net/archives;page=18
-7. https://codewithcurious.com/projects/
-8. https://www.geeksforgeeks.org/python-projects-beginner-to-advanced/?ref=lbp
+
+# **Pages of proyects.**
+  - https://www.w3schools.com/python/default.asp.
+  - https://victomanolo.wordpress.com/python/
+  - https://hacerunprograma.com/
+  - https://edabit.com/challenges
+  - https://www.freecodecamp.org/espanol/news/11-proyectos-de-python-que-los-desarrolladores-junior-pueden-crear-para-practicar/
+  - https://projecteuler.net/archives;page=18
+  - https://codewithcurious.com/projects/
+  - https://www.geeksforgeeks.org/python-projects-beginner-to-advanced/?ref=lbp
+
+**Proyects to resolve.**
+  - https://www.udemy.com/course/python-total/
+    COMPRAR YA EN VACACIONES.
+
+# Cruds applications
+
+ CRUD DE REGISTRO DE CURSOS CONSOLA Y DJANGO SQLITE.
+
+ CRUD DE PRODUCTOS.
+
+ Crud sistema de tiendas online.
 
 
- # **Proyects to resolve.**
+ CRISTAL CRUD WITH PRODUCTIONS.
 
-https://www.udemy.com/course/python-total/
-COMPRAR YA EN VACACIONES.
+ ABASTOS CRUD.
 
-># Cruds applications
+ CRUD DE BIBLIOTECA EL QUE ESTA EN LARAVEL.
 
-CRUD DE REGISTRO DE CURSOS CONSOLA Y DJANGO SQLITE.
+ PUNTO DE VENTA CON INVENTARIO.
 
-CRUD DE PRODUCTOS.
+ VENTA DE AUTOMOVILES.
 
-Crud sistema de tiendas online.
+ FARMACIA.
 
+ SUPERMERCADO.
 
-CRISTAL CRUD WITH PRODUCTIONS.
+ FACTURACION.
 
-ABASTOS CRUD.
+ LINEA AEREA.
 
-CRUD DE BIBLIOTECA EL QUE ESTA EN LARAVEL.
+ FERRETERIA.
 
-PUNTO DE VENTA CON INVENTARIO.
+ BIBLIOTECA.
 
-VENTA DE AUTOMOVILES.
+ ALMACEN DE PARTES.
 
-FARMACIA.
+ NOTA ESTUDIANTES.
 
-SUPERMERCADO.
+ CREAR UN CRM EN PYTHON.
 
-FACTURACION.
+ EXAMENES ONLINE.
 
-LINEA AEREA.
+ SISTEMA DE SOPORTE TECNICO.
 
-FERRETERIA.
+ SISTEMA DE TO DO.
 
-BIBLIOTECA.
-
-ALMACEN DE PARTES.
-
-NOTA ESTUDIANTES.
-
-CREAR UN CRM EN PYTHON.
-
-EXAMENES ONLINE.
-
-SISTEMA DE SOPORTE TECNICO.
-
-SISTEMA DE TO DO.
-
-SISTEMA DE ENCUESTAS.
-
-SISTEMA DE REGISTRO DE EXAMENES.
+ SISTEMA DE ENCUESTAS.
+ 
+ SISTEMA DE REGISTRO DE EXAMENES.
 
 SISTEMA TIPO SPOTIFY.
 
@@ -73,11 +72,11 @@ SISTEMAS DEL CANAL TAREA COMPLETA DE YOUTUBE.
 
 ># Code with corious
 
-Binary to decimal & decimal to binary converter
+ - Binary to decimal & decimal to binary converter
  Damini Patil •  August 31, 2023
 Binary to decimal & decimal to binary converter Introduction: The “Binary-Decimal Converter” Python project is an ideal starting point for individuals venturing …
 
-rock paper scissors
+ - rock paper scissors
 Build mini projects in Python- Fast and Simple
  Sakshi Soni •  June 27, 2023
 Easy projects in python- Beginner friendly Introduction : One of the best ways to learn Python is by working on mini-projects that …
@@ -296,13 +295,13 @@ find wifi Passwords Using Python This article will show you how you can find wif
  - Letter generator
 
 ># Projects for Beginners.
-Number guessing game in Python
+ - Number guessing game in Python
 
-Word guessing game in Python
+ - Word guessing game in Python
 
-Hangman Game in Python
+ - Hangman Game in Python
 
-21 Number game in Python
+ - 21 Number game in Python
 
 Mastermind Game using Python
 

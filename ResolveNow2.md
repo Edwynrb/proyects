@@ -1,0 +1,12 @@
+- Problems to resolve in the Python type structural, function, oop, crud, tkinter and  Flet.
+  - Basics
+    - Find the surface area of a square knowing the value of one side. 
+    - Carry up the loads of 2 whole numbers on the keyboard and print your sum and your product. 
+    - Load the price of a product and the quantity to carry. Show how much should be paid (an integer value is entered in the product price).
+    - Carrying the side of a square side, show the screen perimeter thereof (the perimeter of a square is calculated by multiplying the value of the side by four) .
+    - Write a program in which four numbers are enter, calculate and inform the sum of the first two and the product of the third and the fourth.
+    - Perform a program that reads four numerical values and inform your sum and average. 
+    - Calculate the monthly salary of an operator knowing the number of hours worked and the value per hour.
+  - If exercises
+  - While and For loops
+  - 
