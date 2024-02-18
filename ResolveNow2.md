@@ -7,6 +7,8 @@
     - Write a program in which four numbers are enter, calculate and inform the sum of the first two and the product of the third and the fourth.
     - Perform a program that reads four numerical values and inform your sum and average. 
     - Calculate the monthly salary of an operator knowing the number of hours worked and the value per hour.
+    -  Write a program that asks the user for their weight (in kg) and height (in meters), calculates the body mass index and stores it in a variable, and displays on the screen the sentence where is the calculated body mass index rounded Tu índice de masa corporal es <imc>with <imc>two decimals.
+    -  Write a program that asks the user for an amount to invest, the annual interest and the number of years, and displays on the screen the capital obtained from the investment.
   - If exercises
   - While and For loops
   - 

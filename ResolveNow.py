@@ -69,3 +69,5 @@ height_person = float(input("Enter height of the person "))
 imc_person = weight_person * (height_person)**2
 print(f"The index mass of the person is {imc_person}")
 
+print("Write a program that asks the user for an amount to invest, the annual interest and the number of years, and displays on the screen the capital obtained from the investment.")
+
