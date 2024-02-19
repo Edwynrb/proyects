@@ -86,4 +86,11 @@ dolls_numbers = int(input("Enters numbers of dolls for package "))
 package_weight = (clowns_numbers *CLOWNS_WEIGHT) + (dolls_numbers * DOLLS_WEIGHT)
 print(f"The total weight of the package is {package_weight}") 
 
+print("Imagine that you have just opened a new savings account that offers you 4% interest per year. These savings due to interest, which are not collected until the end of the year, are added to the final balance of your savings account. Write a program that begins by reading the amount of money deposited in the savings account, entered by the user. Then the program must calculate and display on the screen the amount of savings after the first, second and third years. Round each amount to two decimal places.")
+INTEREST_PER_YEARD = 4
+amount_deposited = int(input("Enter old amount deposited in the account: "))
+years_numbers = int(input("Enter numbers of years: "))
+total_interest_per_firts_year = amount_deposited * (INTEREST_PER_YEARD / 100)
+total_interest_per_years = (total_interest_per_firts_year)**years_numbers
+print(f"Total interest per years is {total_interest_per_years} and the interest per one year is {total_interest_per_firts_year}")
 
