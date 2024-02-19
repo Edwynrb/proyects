@@ -94,3 +94,23 @@ total_interest_per_firts_year = amount_deposited * (INTEREST_PER_YEARD / 100)
 total_interest_per_years = (total_interest_per_firts_year)**years_numbers
 print(f"Total interest per years is {total_interest_per_years} and the interest per one year is {total_interest_per_firts_year}")
 
+def calcular_ahorros(monto_inicial, años):
+    # Inicializar el saldo con el monto inicial
+    saldo = monto_inicial
+    
+    # Iterar sobre cada año
+    for año in range(1, años + 1):
+        # Calcular el interés para el año actual
+        interes = saldo * 0.04
+        
+        # Agregar el interés al saldo
+        saldo += interes
+        
+        # Imprimir el saldo después de cada año
+        print("Después del año {}: ${:.2f}".format(año, saldo))
+
+# Leer el monto inicial depositado por el usuario
+monto_inicial = float(input("Ingresa el monto inicial depositado: $"))
+
+# Calcular y mostrar los ahorros después del primer, segundo y tercer año
+calcular_ahorros(monto_inicial, 3)
