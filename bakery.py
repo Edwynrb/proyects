@@ -11,7 +11,7 @@ discount_price = LOAVES_BREAD_PRICE - discount_amount
 # prompt user for input 
 LOAVES_BREAD_OLD = int(input("Enter quantity of bread loaves old: "))
 
-# calculated total cost 
+# calculated  for  total cost .        
 total_cost = LOAVES_BREAD_OLD * discount_price
 
 # print results 
