@@ -5,7 +5,9 @@
 # Get user input
 days_time = int(input("Enter numbers of day: "))
 # Algorithms for result days to years
-year_day   = days_time //  365
-months_day = days_time // 30
+year_day   = days_time // 365
+remaining_days = days_time % 365
+months_day = remaining_days // 30
+remaining_days %= 30
 # Display the result
-print(f"{days_time} days This is the conversion the day to years: {year_day} and the quantity the months are: {months_day}")
+print(f"{days_time} days This is the conversion the day to years: {year_day} and the quantity the months are: {months_day} and days are: {remaining_days}")
