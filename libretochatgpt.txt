@@ -1,0 +1,18 @@
+revisar los videos del viejito de logica de programacion para hacer el libreto y traducirlos al ingles.
+curso de oratoria.
+logica de programacion.
+fundamentos de logica de programacion.
+algoritmos.
+estructuras de datos.
+programacion orientada a objetos.
+
+____________________________________
+agregar validaciones a las aplicaciones.
+agregar mas dificultad a las aplicaciones.
+arreglar los programas para que se vean bonitos.
+pasar todo a cruds.
+pasar todos los programas a funciones.
+pasar todos los programas a programacion orientada a objetos.
+pasar todos a interfaz graficas tinker y flet.
+
+
