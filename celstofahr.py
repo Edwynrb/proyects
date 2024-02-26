@@ -7,3 +7,4 @@ c_grades = int(input("Enter the grades temperatura: "))
 f_grades = (9/5)*c_grades+32
 # output for the screen
 print(f"The convertion for celsius {c_grades} to fahrenheit is {f_grades}")
+

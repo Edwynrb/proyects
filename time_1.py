@@ -1,4 +1,6 @@
-print("Make an algorithm where an amount of seconds is entered and show the hours, minutes and seconds in tha amount. Make an algorithm to show the hours, minutes and seconds in a total number of seconds entered by keyboard.")
+# Make an algorithm where an amount of seconds is entered and show the hours, 
+# minutes and seconds in tha amount. Make an algorithm to show the hours,
+# minutes and seconds in a total number of seconds entered by keyboard
 
 # Get user input:
 second_time = int(input("Enter number of seconds: "))
