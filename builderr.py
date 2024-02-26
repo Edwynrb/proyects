@@ -7,7 +7,7 @@ side_length  = int(input("Enter the side length of the wall in meters: "))
 width_length = int(input("Enter the width length of the wall in meters: ")) 
 # high_wall     = int(input("Enter the high wall of the builder: "))
 CUBICS_METERS =  0.05
-area_square = side_length * width_length 
+area_square   = side_length * width_length 
 # Algorithms for result cubic meters of sands
 amount_sand       =  area_square * CUBICS_METERS  
 amount_sand_round = round(amount_sand, 2) 
