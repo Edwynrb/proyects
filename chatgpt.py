@@ -1,7 +1,7 @@
 import openai
 
 # Set your OpenAI API key
-openai.api_key = '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'
+openai.api_key = 
 
 # Define a function to ask a question
 def ask_question(question, chat_log=None):
