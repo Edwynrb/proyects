@@ -1,0 +1,1167 @@
+¿Cuál es la diferencia entre Python 2 y Python 3?
+¿Qué es PEP 8 y por qué es importante?
+¿Qué es una lista en Python?
+¿Cómo se define una función en Python?
+¿Cuál es la diferencia entre una tupla y una lista?
+¿Cómo se comenta un bloque de código en Python?
+¿Qué es una excepción en Python?
+¿Cómo se manejan las excepciones en Python?
+¿Qué es la programación orientada a objetos (POO) y cómo se implementa en Python?
+¿Cuál es la función range() y para qué se utiliza?
+¿Cuál es la diferencia entre == y is en Python?
+¿Qué son los diccionarios en Python?
+¿Cómo se realiza la concatenación de cadenas en Python?
+¿Qué es la recursión en Python?
+¿Cuál es la diferencia entre una variable local y una variable global en Python?
+¿Qué son los módulos en Python?
+¿Cómo se importa un módulo en Python?
+¿Qué es una función lambda en Python y cuándo se utiliza?
+¿Qué es la programación funcional y cómo se implementa en Python?
+¿Cómo se realiza la lectura de un archivo en Python?
+¿Cómo se realiza la escritura en un archivo en Python?
+¿Cuál es la diferencia entre read() y readline() en Python?
+¿Qué es la comprensión de listas en Python?
+¿Cuál es la diferencia entre append() y extend() en una lista?
+¿Cómo se crea un bucle for en Python?
+¿Qué es el operador ternario en Python?
+¿Cómo se realiza la herencia en Python?
+¿Qué es la sobrecarga de operadores en Python?
+¿Cuál es la función del operador *args en Python?
+¿Cómo se realiza la transposición de una matriz en Python?
+¿Qué es la documentación de una función en Python?
+¿Qué son los métodos strip(), lstrip() y rstrip() en Python?
+¿Cuál es la función del operador % en Python?
+¿Cómo se convierte un número entero a una cadena en Python?
+¿Qué es una excepción KeyError en Python?
+¿Cómo se elimina un elemento de una lista en Python?
+¿Qué es la recursión de cola (tail recursion) en Python?
+¿Cuál es la diferencia entre un conjunto y una lista en Python?
+¿Cómo se realiza la división entera en Python?
+¿Qué es la serialización y deserialización en Python?
+¿Cómo se compara la igualdad de dos objetos en Python?
+¿Cuál es la diferencia entre los métodos sort() y sorted() en Python?
+¿Qué es la anotación de tipo (type hinting) en Python?
+¿Cómo se realiza la captura de la entrada del usuario en Python?
+¿Qué es una comprensión de conjuntos en Python?
+¿Cuál es la función de __init__ en Python?
+¿Cómo se convierte una cadena a minúsculas en Python?
+¿Qué es la recursión indirecta en Python?
+¿Cuál es la función de __name__ en Python?
+¿Cómo se compara la identidad de dos objetos en Python?
+¿Qué es un generador en Python y cómo se define?
+¿Cuál es la diferencia entre return y yield en una función?
+¿Qué es la mutabilidad y la inmutabilidad en Python?
+¿Cuál es la función de __str__ en Python?
+¿Cómo se realiza la inversión de una cadena en Python?
+¿Qué es una variable global y cómo se declara en Python?
+¿Cuál es la función de la palabra clave pass en Python?
+¿Qué son los métodos mágicos (dunder methods) en Python?
+¿Cómo se calcula la longitud de una lista en Python?
+¿Qué es la función enumerate() y cómo se utiliza?
+¿Cuál es la diferencia entre extend() y append() en una lista en Python?
+¿Qué es un decorador en Python y cómo se utiliza?
+¿Cómo se define una constante en Python?
+¿Qué es una excepción TypeError en Python y cuándo se produce?
+¿Cuál es la diferencia entre deepcopy() y copy() en Python?
+¿Qué es el operador // en Python y para qué se utiliza?
+¿Cómo se calcula el factorial de un número en Python?
+¿Qué es la función zip() en Python y cuál es su función?
+¿Cuál es la diferencia entre un método de clase y un método de instancia en Python?
+¿Cómo se realiza la unión de dos conjuntos en Python?
+¿Qué es una función recursiva en Python?
+¿Cuál es la función de los métodos isalpha(), isdigit(), y isalnum() en Python?
+¿Qué es un módulo __init__.py en Python?
+¿Cuál es la función de __doc__ en Python?
+¿Qué es una comprensión de diccionario en Python y cómo se utiliza?
+¿Cuál es la diferencia entre is y == en Python?
+¿Qué es la sobrecarga de métodos en Python?
+¿Cómo se realiza la conversión de una cadena a un entero en Python?
+¿Qué es la función map() en Python y cómo se utiliza?
+¿Cuál es la diferencia entre una lista y una tupla en Python?
+¿Qué es un iterador en Python y cómo se utiliza?
+¿Cómo se realiza la concatenación de diccionarios en Python?
+¿Cuál es la función del método strip() en Python?
+¿Qué es una excepción IndexError en Python?
+¿Cuál es la función de los operadores +=, -= en Python?
+¿Qué es la recursión de pila (stack recursion) en Python?
+¿Cómo se realiza la eliminación de un elemento de un diccionario en Python?
+¿Qué es la función any() en Python y cuál es su función?
+¿Cuál es la diferencia entre un iterador y un generador en Python?
+¿Qué es la expansión de argumentos (*args y **kwargs) en Python y cómo se utiliza?
+¿Qué es una excepción ValueError en Python?
+¿Cuál es la función del operador ** en Python?
+¿Cómo se realiza la inversión de una lista en Python?
+¿Qué es una comprensión de conjuntos en Python y cómo se utiliza?
+¿Cuál es la diferencia entre del y remove() en Python?
+¿Qué es un módulo en Python y cómo se crea?
+¿Cuál es la función de __slots__ en Python?
+¿Qué es la deserialización en Python?
+¿Cómo se convierte un número en una cadena en Python?
+¿Qué es la función filter() en Python y cómo se utiliza?
+
+
+tipos de datos primitivos prueba tecnica
+
+¿Cuáles son los tipos de datos primitivos simples en Python?
+¿Qué tipo de dato se utiliza para representar números enteros en Python?
+¿Cómo se define una variable de tipo entero en Python?
+¿Cuál es la precisión de los números enteros en Python?
+¿Cuál es la función de la función int() en Python?
+¿Cuál es el rango de valores que puede almacenar un entero en Python?
+¿Qué tipo de dato se utiliza para representar números de coma flotante en Python?
+¿Cómo se define una variable de tipo flotante en Python?
+¿Cuál es la precisión de los números de coma flotante en Python?
+¿Cuál es la función de la función float() en Python?
+¿Cuál es el rango de valores que puede almacenar un número de coma flotante en Python?
+¿Qué tipo de dato se utiliza para representar números complejos en Python?
+¿Cómo se define una variable de tipo complejo en Python?
+¿Cuál es la función de la función complex() en Python?
+¿Cuál es la diferencia entre los números complejos y los números reales en Python?
+¿Qué tipo de dato se utiliza para representar valores booleanos en Python?
+¿Cómo se define una variable de tipo booleano en Python?
+¿Cuál es la función de los valores True y False en Python?
+¿Qué operadores se utilizan para comparar valores booleanos en Python?
+¿Qué tipo de dato se utiliza para representar caracteres individuales en Python?
+¿Cómo se define una variable de tipo carácter en Python?
+¿Cuál es la función de la función chr() en Python?
+¿Cuál es la función de la función ord() en Python?
+¿Qué tipo de dato se utiliza para representar cadenas de caracteres en Python?
+¿Cómo se define una variable de tipo cadena en Python?
+¿Cuál es la función de las comillas simples (') y dobles (") al definir cadenas en Python?
+¿Qué operaciones se pueden realizar con cadenas en Python?
+¿Cuál es la función de la función len() en Python cuando se aplica a cadenas?
+¿Cuál es la diferencia entre una cadena de texto (str) y una cadena de bytes (bytes) en Python?
+¿Qué tipo de dato se utiliza para representar valores None en Python?
+¿Cuál es la función del valor None en Python?
+¿Cuál es la diferencia entre None, 0, False, y una cadena vacía ('') en Python?
+¿Qué tipo de dato se utiliza para representar secuencias ordenadas de valores en Python?
+¿Cuál es la diferencia entre una lista y una tupla en Python?
+¿Cómo se define una lista en Python?
+¿Cómo se define una tupla en Python?
+¿Cuál es la función de los corchetes ([]) y los paréntesis (()) al definir listas y tuplas en Python, respectivamente?
+¿Cuál es la función de la función list() y tuple() en Python?
+¿Cuál es la diferencia entre las listas y las tuplas en términos de mutabilidad en Python?
+¿Qué tipo de dato se utiliza para representar colecciones no ordenadas de valores únicos en Python?
+¿Cómo se define un conjunto en Python?
+¿Cuál es la función de los corchetes ({}) al definir un conjunto en Python?
+¿Cuál es la función de la función set() en Python?
+¿Qué operaciones se pueden realizar con conjuntos en Python?
+¿Cuál es la diferencia entre un conjunto y una lista en Python?
+¿Qué tipo de dato se utiliza para representar colecciones clave-valor en Python?
+¿Cómo se define un diccionario en Python?
+¿Cuál es la función de los corchetes ({}) y los dos puntos (:) al definir un diccionario en Python?
+¿Cuál es la función de la función dict() en Python?
+¿Qué operaciones se pueden realizar con diccionarios en Python?
+
+prueba tecnica de slicing and indexing
+Parte 1: Conceptos básicos
+
+¿Qué es el slicing en Python?
+¿Cuál es la sintaxis básica del slicing en Python?
+¿Cuál es la diferencia entre el indexing y el slicing?
+¿Cuál es la diferencia entre list y tuple en términos de slicing?
+¿Cómo se accede al último elemento de una lista usando slicing?
+¿Qué hace lista[::-1] al usar slicing?
+¿Cuál es la notación para especificar un paso en el slicing?
+¿Puede el paso en el slicing ser negativo? ¿Qué efecto tiene?
+¿Qué significa lista[1:5:2]?
+Parte 2: Ejercicios de slicing
+
+Dada una lista lista = [1, 2, 3, 4, 5], imprime los elementos del segundo al cuarto.
+Dada una cadena de texto "Python", imprime los primeros tres caracteres.
+Dada una lista lista = [1, 2, 3, 4, 5], imprime los elementos en posiciones pares.
+Dada una cadena de texto "Hello, World!", imprime los caracteres en posición impar.
+Dada una lista lista = [1, 2, 3, 4, 5], invierte la lista.
+Dada una cadena de texto "Python", imprime la cadena en reversa.
+Dada una lista lista = [1, 2, 3, 4, 5], imprime los elementos saltando de dos en dos.
+Dada una cadena de texto "Python", imprime los caracteres en posición par en reversa.
+Parte 3: Preguntas avanzadas
+
+¿Qué sucede si se intenta acceder a un índice fuera de rango en Python?
+¿Cómo se puede verificar si un índice está dentro del rango válido para una lista?
+¿Cuál es la diferencia entre lista.append() y lista.extend()?
+¿Cuál es la diferencia entre lista.insert() y el slicing para insertar elementos en una lista?
+¿Cómo se puede eliminar un elemento de una lista usando el slicing?
+¿Cómo se pueden intercambiar dos elementos en una lista usando slicing?
+¿Cuál es la diferencia entre lista.remove() y del lista[indice] para eliminar elementos de una lista?
+¿Cómo se pueden copiar elementos de una lista a otra usando slicing?
+¿Cuál es la forma más eficiente de copiar una lista en Python?
+Parte 4: Ejercicios avanzados
+
+Dada una lista lista = [1, 2, 3, 4, 5], elimina el tercer elemento.
+Dada una lista lista = [1, 2, 3, 4, 5], inserta el número 10 entre el segundo y el tercer elemento.
+Dada una lista lista = [1, 2, 3, 4, 5], intercambia el primer y el último elemento.
+Dada una lista lista = [1, 2, 3, 4, 5], copia los elementos de la lista del segundo al cuarto a una nueva lista.
+Dada una cadena de texto "Python", invierte la cadena usando slicing.
+Dada una cadena de texto "Hello, World!", imprime los caracteres de dos en dos en reversa.
+Parte 5: Problemas desafiantes
+
+Dada una lista de números enteros, encuentra el segundo número más grande.
+Dada una lista de palabras, encuentra la palabra más larga.
+Dada una lista de números enteros, elimina los números pares usando slicing.
+Dada una lista de números enteros, convierte cada número en su cuadrado usando slicing.
+Dada una lista de números enteros, elimina los números repetidos manteniendo el orden original.
+Dada una lista de palabras, crea una nueva lista que contenga solo las palabras que empiezan con una vocal.
+Dada una cadena de texto, elimina los caracteres repetidos manteniendo el orden original.
+Dada una cadena de texto, cuenta cuántas veces aparece cada palabra.
+¡Espero que estos ejercicios te resulten útiles para practicar slicing e indexing en Python! Si necesitas las respuestas o más detalles sobre algún ejercicio, no dudes en preguntar.
+
+User
+dame mas preguntas
+ChatGPT
+¡Por supuesto! Aquí tienes más preguntas sobre slicing e indexing en Python:
+
+Parte 6: Conceptos específicos
+
+¿Qué es un índice negativo en Python y cómo se utiliza en el slicing?
+¿Qué sucede si el índice negativo utilizado en el slicing es mayor que la longitud de la secuencia?
+¿Cuál es la diferencia entre lista[start:end] y lista[start:end:] en el slicing?
+¿Qué es una lista anidada y cómo se puede acceder a elementos dentro de ella utilizando slicing?
+¿Cómo se puede utilizar el slicing para obtener una subcadena de una cadena de texto?
+¿Cuál es el resultado de lista[-3:-1] si lista = [1, 2, 3, 4, 5]?
+¿Qué significa lista[::2] y lista[::-1] cuando se utiliza en el slicing?
+¿Cuál es la notación para obtener el primer elemento de una lista usando slicing?
+¿Cómo se puede utilizar el slicing para eliminar todos los elementos de una lista excepto el primero?
+¿Cuál es la forma correcta de utilizar el slicing para clonar una lista en Python?
+Parte 7: Ejercicios adicionales
+
+Dada una lista lista = [1, 2, 3, 4, 5], crea una nueva lista que contenga solo los elementos impares.
+Dada una lista lista = [1, 2, 3, 4, 5], invierte los elementos en posiciones pares.
+Dada una cadena de texto "Hello, World!", imprime los caracteres en posición impar en reversa.
+Dada una lista de números enteros, encuentra el número más pequeño y el número más grande utilizando slicing.
+Dada una lista de listas, extrae la última columna de cada lista utilizando slicing.
+Dada una lista de cadenas de texto, une todas las cadenas en una sola cadena utilizando slicing.
+Dada una cadena de texto, convierte cada palabra en una lista de caracteres utilizando slicing.
+Dada una lista de números enteros, crea una nueva lista que contenga solo los números primos utilizando slicing.
+Dada una lista de palabras, elimina las palabras que tienen menos de tres letras utilizando slicing.
+Dada una cadena de texto, imprime las palabras en orden inverso utilizando slicing.
+¡Espero que estas preguntas adicionales te ayuden a profundizar tus conocimientos sobre slicing e indexing en Python! Si tienes alguna pregunta sobre alguna de ellas o necesitas más detalles, no dudes en pedirlo.
+
+User
+dame mas
+ChatGPT
+¡Claro! Aquí tienes más preguntas sobre slicing e indexing en Python:
+
+Parte 8: Preguntas avanzadas
+
+¿Cómo se puede utilizar el slicing para realizar una copia invertida de una lista?
+¿Cuál es la diferencia entre lista[start:end:step] y lista[end:start:step] en el slicing?
+¿Qué es la indexación negativa en Python y cuándo es útil?
+¿Cómo se puede utilizar el slicing para obtener una subcadena de una cadena de texto en orden inverso?
+¿Cuál es el resultado de lista[-3::-1] si lista = [1, 2, 3, 4, 5]?
+¿Cómo se puede utilizar el slicing para dividir una lista en varias partes?
+¿Qué sucede si se omite el valor de inicio en el slicing?
+¿Cuál es la forma de utilizar el slicing para obtener los últimos tres elementos de una secuencia?
+¿Qué significa lista[-1:-4:-1] cuando se utiliza en el slicing?
+¿Cómo se puede utilizar el slicing para invertir el orden de una lista sin modificar la original?
+Parte 9: Ejercicios desafiantes
+
+Dada una lista de números enteros, crea una nueva lista que contenga solo los números que son múltiplos de tres.
+Dada una lista de listas, intercambia la primera fila con la última utilizando slicing.
+Dada una lista de cadenas de texto, crea una nueva lista que contenga solo las palabras que terminan con una vocal.
+Dada una lista de números enteros, elimina los números que son mayores que el promedio de la lista utilizando slicing.
+Dada una lista de cadenas de texto, ordena las cadenas de texto por longitud utilizando slicing.
+Dada una cadena de texto, convierte cada palabra en una lista de caracteres y luego invierte el orden de las letras en cada palabra utilizando slicing.
+Dada una lista de números enteros, encuentra todos los índices donde se encuentra un número par utilizando slicing.
+Dada una lista de cadenas de texto, encuentra la cadena más larga que sea un palíndromo utilizando slicing.
+Dada una lista de listas, crea una nueva lista que contenga la suma de cada fila utilizando slicing.
+Dada una cadena de texto, elimina todas las apariciones de una subcadena específica utilizando slicing.
+
+prueba tecnica de strings
+Qué es una cadena de caracteres en Python y cuál es su función principal?
+¿Cuál es la diferencia entre comillas simples (') y comillas dobles (") al definir una cadena en Python?
+¿Cómo se define una cadena de varias líneas en Python?
+¿Cuál es la función del carácter de escape \n en una cadena en Python?
+¿Cómo se utiliza el carácter de escape \n para insertar saltos de línea en una cadena en Python?
+¿Cuál es la función del carácter de escape \t en una cadena en Python?
+¿Cómo se utiliza el carácter de escape \t para insertar tabulaciones en una cadena en Python?
+¿Cuál es la función del carácter de escape \\ en una cadena en Python?
+¿Cómo se utiliza el carácter de escape \\ para insertar una barra invertida en una cadena en Python?
+¿Cuál es la función del carácter de escape \" en una cadena en Python?
+¿Cómo se utiliza el carácter de escape \" para insertar comillas dobles dentro de una cadena en Python?
+¿Cuál es la función del carácter de escape \' en una cadena en Python?
+¿Cómo se utiliza el carácter de escape \' para insertar comillas simples dentro de una cadena en Python?
+¿Cuál es la función del carácter de escape \xNN en una cadena en Python?
+¿Cómo se utiliza el carácter de escape \xNN para insertar un carácter ASCII específico en una cadena en Python?
+¿Cuál es la función del carácter de escape \uNNNN en una cadena en Python?
+¿Cómo se utiliza el carácter de escape \uNNNN para insertar un carácter Unicode específico en una cadena en Python?
+¿Cuál es la función del carácter de escape \UNNNNNNNN en una cadena en Python?
+¿Cómo se utiliza el carácter de escape \UNNNNNNNN para insertar un carácter Unicode específico en una cadena en Python?
+¿Cuál es la función de los métodos upper() y lower() en una cadena en Python?
+¿Cómo se utiliza el método upper() para convertir una cadena a mayúsculas en Python?
+¿Cómo se utiliza el método lower() para convertir una cadena a minúsculas en Python?
+¿Cuál es la función del método capitalize() en una cadena en Python?
+¿Cómo se utiliza el método capitalize() para capitalizar la primera letra de una cadena en Python?
+¿Cuál es la función del método title() en una cadena en Python?
+¿Cómo se utiliza el método title() para capitalizar la primera letra de cada palabra en una cadena en Python?
+¿Cuál es la función del método swapcase() en una cadena en Python?
+¿Cómo se utiliza el método swapcase() para intercambiar entre mayúsculas y minúsculas en una cadena en Python?
+¿Cuál es la función del método strip() en una cadena en Python?
+¿Cómo se utiliza el método strip() para eliminar espacios en blanco al principio y al final de una cadena en Python?
+¿Cuál es la función del método lstrip() en una cadena en Python?
+¿Cómo se utiliza el método lstrip() para eliminar espacios en blanco al principio de una cadena en Python?
+¿Cuál es la función del método rstrip() en una cadena en Python?
+¿Cómo se utiliza el método rstrip() para eliminar espacios en blanco al final de una cadena en Python?
+¿Cuál es la función del método startswith() en una cadena en Python?
+¿Cómo se utiliza el método startswith() para verificar si una cadena comienza con un determinado prefijo en Python?
+¿Cuál es la función del método endswith() en una cadena en Python?
+¿Cómo se utiliza el método endswith() para verificar si una cadena termina con un determinado sufijo en Python?
+¿Cuál es la función del método find() en una cadena en Python?
+¿Cómo se utiliza el método find() para encontrar la primera ocurrencia de una subcadena en una cadena en Python?
+¿Qué valor devuelve el método find() si la subcadena no se encuentra en la cadena en Python?
+¿Cuál es la función del método index() en una cadena en Python?
+¿Cómo se utiliza el método index() para encontrar la primera ocurrencia de una subcadena en una cadena en Python?
+¿Qué valor devuelve el método index() si la subcadena no se encuentra en la cadena en Python?
+¿Cuál es la función del método replace() en una cadena en Python?
+¿Cómo se utiliza el método replace() para reemplazar todas las ocurrencias de una subcadena en una cadena en Python?
+¿Cuál es la función del método split() en una cadena en Python?
+¿Cómo se utiliza el método split() para dividir una cadena en una lista de subcadenas en Python?
+¿Cuál es la función del método join() en una cadena en Python?
+¿Cómo se utiliza el método join() para unir una lista de subcadenas en una sola cadena en Python?
+¿Cuál es la función del método count() en una cadena en Python?
+¿Cómo se utiliza el método count() para contar el número de ocurrencias de una subcadena en una cadena en Python?
+¿Cuál es la función del método isdigit() en una cadena en Python?
+¿Cómo se utiliza el método isdigit() para verificar si todos los caracteres de una cadena son dígitos en Python?
+¿Cuál es la función del método isalpha() en una cadena en Python?
+¿Cómo se utiliza el método isalpha() para verificar si todos los caracteres de una cadena son letras en Python?
+¿Cuál es la función del método isalnum() en una cadena en Python?
+¿Cómo se utiliza el método isalnum() para verificar si todos los caracteres de una cadena son alfanuméricos en Python?
+¿Cuál es la función del método isspace() en una cadena en Python?
+¿Cómo se utiliza el método isspace() para verificar si todos los caracteres de una cadena son espacios en blanco en Python?
+
+
+
+prueba tecnica con condicionales
+¿Cuáles son las palabras clave utilizadas para las estructuras condicionales en Python?
+¿Cómo se define una instrucción if en Python?
+¿Cuál es la función de la instrucción else en Python?
+¿Cómo se define una instrucción elif en Python?
+¿Cuál es la diferencia entre if, elif y else en Python?
+¿Cómo se compara la igualdad de dos variables en Python?
+¿Cuál es la función de los operadores de comparación (==, !=, <, >, <=, >=) en Python?
+¿Cómo se realiza una comparación de cadenas en Python?
+¿Cómo se realiza una comparación de múltiples condiciones en Python?
+¿Cuál es la función del operador and en una expresión condicional en Python?
+¿Cuál es la función del operador or en una expresión condicional en Python?
+¿Cómo se niega una condición en Python?
+¿Cómo se implementa un bloque try-except en Python?
+¿Cuál es la función de la palabra clave assert en Python?
+¿Cómo se manejan las condiciones no previstas en una instrucción if en Python?
+¿Cómo se implementa una estructura condicional dentro de una expresión list comprehension en Python?
+¿Qué es la palabra clave elif y cómo se usa en una estructura condicional en Python?
+¿Qué es la función bool() en Python y cómo se relaciona con las estructuras condicionales?
+¿Qué es una expresión ternaria en Python y cómo se utiliza?
+¿Cuál es la función del operador in en una expresión condicional en Python?
+¿Cuál es la función de la palabra clave else y cómo se usa en una estructura condicional en Python?
+¿Cuál es la función del operador de identidad is en una expresión condicional en Python?
+¿Qué es la función len() en Python y cuál es su función en una estructura condicional?
+¿Cuál es la diferencia entre una estructura if-elif-else y una estructura if-if en Python?
+¿Qué es la palabra clave not y cómo se usa en una estructura condicional en Python?
+¿Cuál es la función del operador de comparación != en una expresión condicional en Python?
+¿Qué es la función range() en Python y cuál es su función en una estructura condicional?
+¿Cuál es la función del operador de comparación > en una expresión condicional en Python?
+¿Qué es la palabra clave pass y cómo se usa en una estructura condicional en Python?
+¿Cuál es la función del operador de comparación < en una expresión condicional en Python?
+¿Qué es la función ord() en Python y cuál es su función en una estructura condicional?
+¿Cómo se evalúa una expresión condicional con múltiples condiciones en Python?
+¿Qué es una expresión cortocircuitada (short-circuit expression) en Python y cuál es su función?
+¿Cuál es la función de la palabra clave and en una expresión condicional en Python?
+¿Cómo se implementa una estructura condicional con múltiples condiciones utilizando and en Python?
+¿Cuál es la función de la palabra clave or en una expresión condicional en Python?
+¿Cómo se implementa una estructura condicional con múltiples condiciones utilizando or en Python?
+¿Qué es la función chr() en Python y cuál es su función en una estructura condicional?
+¿Cómo se evalúa una expresión condicional compleja en Python?
+¿Qué es una evaluación cortocircuitada (short-circuit evaluation) en Python y cómo afecta a las expresiones condicionales?
+¿Cómo se implementa una estructura condicional con múltiples condiciones utilizando paréntesis en Python?
+¿Qué es la función sorted() en Python y cuál es su función en una estructura condicional?
+¿Cómo se implementa una estructura condicional con múltiples condiciones utilizando sorted() en Python?
+¿Qué es la función all() en Python y cuál es su función en una estructura condicional?
+¿Cómo se implementa una estructura condicional con múltiples condiciones utilizando all() en Python?
+¿Qué es la función any() en Python y cuál es su función en una estructura condicional?
+¿Cómo se implementa una estructura condicional con múltiples condiciones utilizando any() en Python?
+¿Cuál es la función del operador de pertenencia in en una expresión condicional en Python?
+¿Cómo se implementa una estructura condicional con múltiples condiciones utilizando in en Python?
+¿Cuál es la función del operador de identidad is en una expresión condicional en Python?
+¿Cómo se implementa una estructura condicional con múltiples condiciones utilizando is en Python?
+¿Qué es la función len() en Python y cuál es su función en una estructura condicional?
+¿Cómo se implementa una estructura condicional con múltiples condiciones utilizando len() en Python?
+¿Cuál es la función del operador de comparación != en una expresión condicional en Python?
+¿Cómo se implementa una estructura condicional con múltiples condiciones utilizando != en Python?
+¿Qué es la función range() en Python y cuál es su función en una estructura condicional?
+¿Cómo se implementa una estructura condicional con múltiples condiciones utilizando range() en Python?
+¿Cuál es la función del operador de comparación > en una expresión condicional en Python?
+¿Cómo se implementa una estructura condicional con múltiples condiciones utilizando > en Python?
+¿Qué es la función ord() en Python y cuál es su función en una estructura condicional?
+¿Cómo se evalúa una expresión condicional con múltiples condiciones en Python?
+¿Qué es una expresión cortocircuitada (short-circuit expression) en Python y cuál es su función?
+¿Cuál es la función de la palabra clave and en una expresión condicional en Python?
+¿Cómo se implementa una estructura condicional con múltiples condiciones utilizando and en Python?
+¿Cuál es la función de la palabra clave or en una expresión condicional en Python?
+¿Cómo se implementa una estructura condicional con múltiples condiciones utilizando or en Python?
+¿Qué es la función chr() en Python y cuál es su función en una estructura condicional?
+¿Cómo se evalúa una expresión condicional compleja en Python?
+¿Qué es una evaluación cortocircuitada (short-circuit evaluation) en Python y cómo afecta a las expresiones condicionales?
+¿Cómo se implementa una estructura condicional con múltiples condiciones utilizando paréntesis en Python?
+
+prueba tecnica con bucles
+
+¿Cuáles son los tipos de bucles disponibles en Python?
+¿Cómo se define un bucle for en Python?
+¿Cuál es la función de la palabra clave for en un bucle for en Python?
+¿Qué es una secuencia iterable en Python y cómo se relaciona con un bucle for?
+¿Cómo se define un bucle while en Python?
+¿Cuál es la función de la palabra clave while en un bucle while en Python?
+¿Qué es una expresión booleana en Python y cómo afecta a un bucle while?
+¿Cuál es la diferencia entre un bucle for y un bucle while en Python?
+¿Cómo se ejecuta un bucle for en Python?
+¿Cómo se ejecuta un bucle while en Python?
+¿Cuál es la función del operador de asignación (=) en un bucle for en Python?
+¿Cuál es la función del operador de comparación (==) en un bucle while en Python?
+¿Cómo se realiza la iteración sobre una lista en un bucle for en Python?
+¿Qué es una iteración en Python y cuál es su función en un bucle?
+¿Cuál es la función de la palabra clave continue en un bucle en Python?
+¿Cómo se utiliza la palabra clave continue en un bucle for en Python?
+¿Cómo se utiliza la palabra clave continue en un bucle while en Python?
+¿Cuál es la función de la palabra clave break en un bucle en Python?
+¿Cómo se utiliza la palabra clave break en un bucle for en Python?
+¿Cómo se utiliza la palabra clave break en un bucle while en Python?
+¿Qué es una declaración else en un bucle en Python?
+¿Cómo se utiliza la declaración else en un bucle for en Python?
+¿Cómo se utiliza la declaración else en un bucle while en Python?
+¿Cuál es la función de la palabra clave pass en un bucle en Python?
+¿Cómo se utiliza la palabra clave pass en un bucle for en Python?
+¿Cómo se utiliza la palabra clave pass en un bucle while en Python?
+¿Cuál es la función de la función range() en un bucle for en Python?
+¿Cómo se utiliza la función range() en un bucle for en Python?
+¿Cuál es la función de la función enumerate() en un bucle for en Python?
+¿Cómo se utiliza la función enumerate() en un bucle for en Python?
+¿Cuál es la función de la función zip() en un bucle en Python?
+¿Cómo se utiliza la función zip() en un bucle for en Python?
+¿Qué es una comprensión de lista en Python y cómo se utiliza en un bucle for?
+¿Qué es una comprensión de conjunto en Python y cómo se utiliza en un bucle for?
+¿Qué es una comprensión de diccionario en Python y cómo se utiliza en un bucle for?
+¿Qué es una comprensión de generador en Python y cómo se utiliza en un bucle for?
+¿Cuál es la función de los bucles anidados en Python?
+¿Cómo se implementan los bucles anidados en Python?
+¿Cuál es la función de la palabra clave else en un bucle anidado en Python?
+¿Cómo se utiliza la palabra clave else en un bucle anidado en Python?
+¿Cuál es la función del operador de asignación (=) en un bucle anidado en Python?
+¿Cuál es la función del operador de comparación (==) en un bucle anidado en Python?
+¿Qué es una declaración break en un bucle anidado en Python?
+¿Cómo se utiliza la declaración break en un bucle anidado en Python?
+¿Qué es una declaración continue en un bucle anidado en Python?
+¿Cómo se utiliza la declaración continue en un bucle anidado en Python?
+¿Qué es una declaración pass en un bucle anidado en Python?
+¿Cómo se utiliza la declaración pass en un bucle anidado en Python?
+¿Cuál es la función de la función range() en un bucle anidado en Python?
+¿Cómo se utiliza la función range() en un bucle anidado en Python?
+¿Cuál es la función de la función enumerate() en un bucle anidado en Python?
+¿Cómo se utiliza la función enumerate() en un bucle anidado en Python?
+¿Qué es una comprensión de lista en Python y cómo se utiliza en un bucle anidado?
+¿Qué es una comprensión de conjunto en Python y cómo se utiliza en un bucle anidado?
+¿Qué es una comprensión de diccionario en Python y cómo se utiliza en un bucle anidado?
+¿Qué es una comprensión de generador en Python y cómo se utiliza en un bucle anidado?
+¿Cuál es la función de los bucles infinitos en Python?
+¿Cómo se implementan los bucles infinitos en Python?
+¿Cuál es la función de la palabra clave break en un bucle infinito en Python?
+¿Cómo se utiliza la palabra clave break en un bucle infinito en Python?
+
+prueba tecnica de listas
+¿Qué es una lista en Python y cuál es su función?
+¿Cómo se define una lista en Python?
+¿Cuál es la sintaxis para crear una lista vacía en Python?
+¿Cuál es la función de los corchetes ([]) al definir una lista en Python?
+¿Cuál es la diferencia entre una lista y una tupla en Python?
+¿Cuál es la función del método append() en una lista en Python?
+¿Cómo se utiliza el método append() para agregar elementos a una lista en Python?
+¿Cuál es la función del método extend() en una lista en Python?
+¿Cómo se utiliza el método extend() para agregar múltiples elementos a una lista en Python?
+¿Cuál es la función del operador de indexación ([]) en una lista en Python?
+¿Cómo se accede a un elemento específico de una lista en Python utilizando la indexación?
+¿Cuál es la función del método insert() en una lista en Python?
+¿Cómo se utiliza el método insert() para insertar un elemento en una posición específica de una lista en Python?
+¿Cuál es la función del método remove() en una lista en Python?
+¿Cómo se utiliza el método remove() para eliminar un elemento específico de una lista en Python?
+¿Cuál es la función del método pop() en una lista en Python?
+¿Cómo se utiliza el método pop() para eliminar y devolver un elemento de una lista en Python?
+¿Cuál es la función del método index() en una lista en Python?
+¿Cómo se utiliza el método index() para encontrar el índice de un elemento en una lista en Python?
+¿Cuál es la función del método count() en una lista en Python?
+¿Cómo se utiliza el método count() para contar la cantidad de veces que aparece un elemento en una lista en Python?
+¿Cuál es la función del método sort() en una lista en Python?
+¿Cómo se utiliza el método sort() para ordenar una lista en Python?
+¿Cuál es la función del método reverse() en una lista en Python?
+¿Cómo se utiliza el método reverse() para invertir el orden de una lista en Python?
+¿Cuál es la función del operador de segmentación ([:]) en una lista en Python?
+¿Cómo se utiliza el operador de segmentación para crear una copia de una lista en Python?
+¿Cuál es la función del operador de segmentación con paso ([::]) en una lista en Python?
+¿Cómo se utiliza el operador de segmentación con paso para crear una sublista con elementos espaciados de una lista en Python?
+¿Cuál es la función del operador de pertenencia (in) en una lista en Python?
+¿Cómo se utiliza el operador de pertenencia para verificar si un elemento está presente en una lista en Python?
+¿Cuál es la función de la función len() en una lista en Python?
+¿Cómo se utiliza la función len() para obtener la longitud de una lista en Python?
+¿Cuál es la función de las funciones min() y max() en una lista en Python?
+¿Cómo se utilizan las funciones min() y max() para encontrar el valor mínimo y máximo en una lista en Python?
+¿Cuál es la función del operador de concatenación (+) en listas en Python?
+¿Cómo se utiliza el operador de concatenación para unir dos listas en Python?
+¿Cuál es la función del operador de repetición (*) en listas en Python?
+¿Cómo se utiliza el operador de repetición para repetir una lista en Python?
+¿Cuál es la función de las comprensiones de lista en Python?
+¿Cómo se utiliza una comprensión de lista para crear una nueva lista basada en otra lista en Python?
+¿Cuál es la función de las funciones map() y filter() en Python y cómo se aplican a las listas?
+¿Cómo se utiliza la función map() para aplicar una función a cada elemento de una lista en Python?
+¿Cómo se utiliza la función filter() para filtrar elementos de una lista en Python?
+¿Cuál es la función del operador de desempaquetado (*) en listas en Python?
+¿Cómo se utiliza el operador de desempaquetado para desempaquetar los elementos de una lista en Python?
+¿Cuál es la función de la función zip() en Python y cómo se aplica a las listas?
+¿Cómo se utiliza la función zip() para combinar dos o más listas en Python?
+¿Cuál es la función de la función enumerate() en Python y cómo se aplica a las listas?
+¿Cómo se utiliza la función enumerate() para obtener índices y elementos de una lista en Python?
+¿Cuál es la función de las funciones sum() y sorted() en Python y cómo se aplican a las listas?
+¿Cómo se utiliza la función sum() para sumar los elementos de una lista en Python?
+¿Cómo se utiliza la función sorted() para ordenar una lista en Python sin modificar la lista original?
+¿Cuál es la función de las funciones any() y all() en Python y cómo se aplican a las listas?
+¿Cómo se utiliza la función any() para verificar si al menos un elemento de una lista es verdadero en Python?
+¿Cómo se utiliza la función all() para verificar si todos los elementos de una lista son verdaderos en Python?
+¿Cuál es la función de las funciones reversed() y slice() en Python y cómo se aplican a las listas?
+¿Cómo se utiliza la función reversed() para invertir el orden de una lista en Python?
+¿Cómo se utiliza la función slice() para obtener una porción de una lista en Python?
+¿Cuál es la función del método clear() en una lista en Python?
+¿Cuál es la diferencia entre la función list() y la comprensión de lista en Python?
+¿Cuál es la función de los métodos copy() y deepcopy() en una lista en Python?
+¿Cómo se utiliza el método copy() para crear una copia superficial de una lista en Python?
+¿Cuál es la diferencia entre una copia superficial y una copia profunda de una lista en Python?
+¿Qué es la función id() en Python y cómo se relaciona con la copia de listas?
+¿Cómo se utiliza la función id() para verificar la identidad de dos listas en Python?
+¿Cuál es la función de la función list() en Python cuando se utiliza sin argumentos?
+¿Cómo se utiliza la función list() para convertir otros tipos de datos en una lista en Python?
+¿Qué es una lista anidada en Python y cómo se crea?
+¿Cuál es la función de las listas anidadas y cómo se accede a los elementos de una lista anidada?
+¿Cuál es la función del método count() en una lista en Python y cómo se aplica a una lista anidada?
+¿Cómo se utiliza el método count() para contar la cantidad de veces que aparece un elemento en una lista anidada en Python?
+¿Cuál es la función del método index() en una lista en Python y cómo se aplica a una lista anidada?
+¿Cómo se utiliza el método index() para encontrar el índice de un elemento en una lista anidada en Python?
+¿Qué es la función del método sort() en una lista en Python y cómo se aplica a una lista anidada?
+¿Cómo se utiliza el método sort() para ordenar una lista anidada en Python?
+¿Cuál es la función del método reverse() en una lista en Python y cómo se aplica a una lista anidada?
+¿Cómo se utiliza el método reverse() para invertir el orden de una lista anidada en Python?
+¿Qué es una lista de comprensiones anidadas en Python y cómo se crea?
+¿Cuál es la función de las listas de comprensiones anidadas y cómo se utilizan en Python?
+¿Qué es la función de las funciones map() y filter() en Python y cómo se aplican a las listas anidadas?
+¿Cómo se utiliza la función map() para aplicar una función a cada elemento de una lista anidada en Python?
+¿Cómo se utiliza la función filter() para filtrar elementos de una lista anidada en Python?
+¿Qué es una lista de tuplas en Python y cómo se crea?
+¿Cuál es la función de una lista de tuplas y cómo se accede a los elementos de una lista de tuplas?
+¿Cómo se convierte una lista de tuplas en una lista de listas en Python?
+¿Cuál es la función de la función zip() en Python y cómo se aplica a una lista de tuplas?
+¿Cómo se utiliza la función zip() para combinar una lista de tuplas en Python?
+¿Qué es una lista de conjuntos en Python y cómo se crea?
+¿Cuál es la función de una lista de conjuntos y cómo se accede a los elementos de una lista de conjuntos?
+¿Cómo se convierte una lista de conjuntos en una lista de listas en Python?
+¿Cuál es la función del método union() en un conjunto en Python y cómo se aplica a una lista de conjuntos?
+¿Cómo se utiliza el método union() para combinar una lista de conjuntos en Python?
+¿Qué es una lista de diccionarios en Python y cómo se crea?
+¿Cuál es la función de una lista de diccionarios y cómo se accede a los elementos de una lista de diccionarios?
+¿Cómo se convierte una lista de diccionarios en una lista de listas en Python?
+¿Cuál es la función del método update() en un diccionario en Python y cómo se aplica a una lista de diccionarios?
+¿Cómo se utiliza el método update() para combinar una lista de diccionarios en Python?
+¿Qué es una lista de cadenas en Python y cómo se crea?
+¿Cuál es la función de una lista de cadenas y cómo se accede a los elementos de una lista de cadenas?
+
+prueba tecnica de tuplas
+Qué es una tupla en Python y cuál es su función?
+¿Cómo se define una tupla en Python?
+¿Cuál es la diferencia entre una lista y una tupla en Python?
+¿Cuál es la sintaxis para crear una tupla vacía en Python?
+¿Cuál es la función de los paréntesis () al definir una tupla en Python?
+¿Cuál es la función del operador de indexación ([]) en una tupla en Python?
+¿Cómo se accede a un elemento específico de una tupla en Python utilizando la indexación?
+¿Cuál es la función del operador de segmentación ([:]) en una tupla en Python?
+¿Cómo se utiliza el operador de segmentación para crear una sub-tupla en Python?
+¿Cuál es la función del operador de repetición (*) en tuplas en Python?
+¿Cómo se utiliza el operador de repetición para repetir una tupla en Python?
+¿Cuál es la función del operador de concatenación (+) en tuplas en Python?
+¿Cómo se utiliza el operador de concatenación para unir dos tuplas en Python?
+¿Cuál es la función de las comprensiones de tupla en Python?
+¿Cómo se utiliza una comprensión de tupla para crear una nueva tupla basada en otra secuencia en Python?
+¿Cuál es la función de la función zip() en Python y cómo se aplica a las tuplas?
+¿Cómo se utiliza la función zip() para combinar dos o más tuplas en Python?
+¿Cuál es la función de la función enumerate() en Python y cómo se aplica a las tuplas?
+¿Cómo se utiliza la función enumerate() para obtener índices y elementos de una tupla en Python?
+¿Cuál es la función del método index() en una tupla en Python?
+¿Cómo se utiliza el método index() para encontrar el índice de un elemento en una tupla en Python?
+¿Cuál es la función del método count() en una tupla en Python?
+¿Cómo se utiliza el método count() para contar la cantidad de veces que aparece un elemento en una tupla en Python?
+¿Cuál es la función de las funciones min() y max() en una tupla en Python?
+¿Cómo se utilizan las funciones min() y max() para encontrar el valor mínimo y máximo en una tupla en Python?
+¿Cuál es la función de la función sum() en una tupla en Python?
+¿Cómo se utiliza la función sum() para sumar los elementos de una tupla en Python?
+¿Cuál es la función de la función sorted() en una tupla en Python?
+¿Cómo se utiliza la función sorted() para ordenar una tupla en Python?
+¿Cuál es la función de las funciones any() y all() en Python y cómo se aplican a las tuplas?
+¿Cómo se utiliza la función any() para verificar si al menos un elemento de una tupla es verdadero en Python?
+¿Cómo se utiliza la función all() para verificar si todos los elementos de una tupla son verdaderos en Python?
+¿Cuál es la función de las funciones reversed() y slice() en Python y cómo se aplican a las tuplas?
+¿Cómo se utiliza la función reversed() para invertir el orden de una tupla en Python?
+¿Cómo se utiliza la función slice() para obtener una porción de una tupla en Python?
+¿Cuál es la función del operador de pertenencia (in) en una tupla en Python?
+¿Cómo se utiliza el operador de pertenencia para verificar si un elemento está presente en una tupla en Python?
+¿Cuál es la función de la función len() en una tupla en Python?
+¿Cómo se utiliza la función len() para obtener la longitud de una tupla en Python?
+¿Cuál es la función de la palabra clave del en una tupla en Python y cómo se utiliza?
+¿Cuál es la función de la palabra clave for en un bucle for en Python y cómo se aplica a las tuplas?
+¿Cómo se utiliza un bucle for para iterar sobre una tupla en Python?
+¿Cuál es la función de la palabra clave in en una comprensión de tupla en Python?
+¿Cómo se utiliza la palabra clave in en una comprensión de tupla para filtrar elementos en Python?
+¿Cuál es la función de la palabra clave if en una comprensión de tupla en Python?
+¿Cómo se utiliza la palabra clave if en una comprensión de tupla para aplicar una condición en Python?
+¿Cuál es la función del operador de desempaquetado (*) en tuplas en Python?
+¿Cómo se utiliza el operador de desempaquetado para desempaquetar los elementos de una tupla en Python?
+¿Cuál es la función de la palabra clave else en una comprensión de tupla en Python?
+¿Cómo se utiliza la palabra clave else en una comprensión de tupla para manejar casos adicionales en Python?
+¿Cuál es la función de la palabra clave for en una comprensión de tupla en Python y cómo se aplica a las secuencias anidadas?
+¿Cómo se utiliza un bucle for en una comprensión de tupla para iterar sobre secuencias anidadas en Python?
+¿Cuál es la función de la función map() en Python y cómo se aplica a las tuplas?
+¿Cómo se utiliza la función map() para aplicar una función a cada elemento de una tupla en Python?
+¿Cuál es la función de la función filter() en Python y cómo se aplica a las tuplas?
+¿Cómo se utiliza la función filter() para filtrar elementos de una tupla en Python?
+¿Cuál es la función de las tuplas nombradas (namedtuples) en Python y cómo se crean?
+¿Cómo se utiliza una tupla nombrada para crear una tupla con campos específicos en Python?
+¿Cuál es la función del módulo collections en relación con las tuplas en Python?
+¿Cómo se utiliza el módulo collections para crear tuplas con características especiales en Python?
+
+prueba tecnica sobre diccionarios en Python
+¿Qué es un diccionario en Python y cuál es su función principal?
+¿Cómo se define un diccionario en Python?
+¿Cuál es la sintaxis para crear un diccionario vacío en Python?
+¿Cuál es la función de las llaves {} al definir un diccionario en Python?
+¿Cuál es la diferencia entre una lista y un diccionario en Python?
+¿Cuál es la función del operador de indexación ([]) en un diccionario en Python?
+¿Cómo se accede al valor asociado a una clave específica en un diccionario en Python?
+¿Cuál es la función del método get() en un diccionario en Python?
+¿Cómo se utiliza el método get() para obtener el valor asociado a una clave en un diccionario en Python?
+¿Cuál es la diferencia entre el método get() y el operador de indexación ([]) al acceder a valores en un diccionario en Python?
+¿Cuál es la función del método keys() en un diccionario en Python?
+¿Cómo se utiliza el método keys() para obtener todas las claves de un diccionario en Python?
+¿Cuál es la función del método values() en un diccionario en Python?
+¿Cómo se utiliza el método values() para obtener todos los valores de un diccionario en Python?
+¿Cuál es la función del método items() en un diccionario en Python?
+¿Cómo se utiliza el método items() para obtener todos los pares clave-valor de un diccionario en Python?
+¿Cuál es la función del operador de pertenencia (in) en un diccionario en Python?
+¿Cómo se utiliza el operador de pertenencia para verificar si una clave está presente en un diccionario en Python?
+¿Cuál es la función de la palabra clave del en un diccionario en Python y cómo se utiliza?
+¿Cómo se utiliza la palabra clave del para eliminar una entrada de un diccionario en Python?
+¿Cuál es la función del método pop() en un diccionario en Python?
+¿Cómo se utiliza el método pop() para eliminar y devolver el valor asociado a una clave en un diccionario en Python?
+¿Qué sucede si intentas acceder a una clave que no está presente en un diccionario usando el operador de indexación ([]) en Python?
+¿Cuál es la función del método setdefault() en un diccionario en Python?
+¿Cómo se utiliza el método setdefault() para obtener el valor asociado a una clave en un diccionario en Python, y si la clave no está presente, insertarla con un valor predeterminado?
+¿Cuál es la función del método update() en un diccionario en Python?
+¿Cómo se utiliza el método update() para combinar dos diccionarios en Python?
+¿Cuál es la función del método clear() en un diccionario en Python?
+¿Cómo se utiliza el método clear() para eliminar todos los elementos de un diccionario en Python?
+¿Cuál es la función de las comprensiones de diccionario en Python?
+¿Cómo se utiliza una comprensión de diccionario para crear un nuevo diccionario basado en otro en Python?
+¿Cuál es la función de la función len() en un diccionario en Python?
+¿Cómo se utiliza la función len() para obtener la cantidad de elementos en un diccionario en Python?
+¿Cuál es la función del método copy() en un diccionario en Python?
+¿Cómo se utiliza el método copy() para crear una copia superficial de un diccionario en Python?
+¿Cuál es la función del método fromkeys() en la clase dict en Python?
+¿Cómo se utiliza el método fromkeys() para crear un nuevo diccionario con claves especificadas y valores predeterminados en Python?
+¿Cuál es la función del método popitem() en un diccionario en Python?
+¿Cómo se utiliza el método popitem() para eliminar y devolver un par clave-valor aleatorio de un diccionario en Python?
+¿Cuál es la función del constructor dict() en Python y cómo se utiliza?
+¿Cómo se utiliza el constructor dict() para crear un diccionario a partir de iterables en Python?
+¿Cuál es la función de los diccionarios anidados en Python?
+¿Cómo se define un diccionario anidado en Python?
+¿Cómo se accede a un valor en un diccionario anidado en Python utilizando múltiples claves?
+¿Cuál es la función del método defaultdict() en el módulo collections en Python?
+¿Cómo se utiliza el método defaultdict() para crear un diccionario con valores predeterminados en Python?
+¿Cuál es la función del método OrderedDict() en el módulo collections en Python?
+¿Cómo se utiliza el método OrderedDict() para crear un diccionario ordenado en Python?
+¿Cuál es la función del método ChainMap() en el módulo collections en Python?
+¿Cómo se utiliza el método ChainMap() para combinar múltiples diccionarios en uno en Python?
+¿Cuál es la función del método Counter() en el módulo collections en Python?
+¿Cómo se utiliza el método Counter() para contar elementos en un iterable y crear un diccionario en Python?
+¿Cuál es la función del método MappingProxyType() en el módulo types en Python?
+¿Cómo se utiliza el método MappingProxyType() para crear un diccionario de solo lectura en Python?
+¿Cuál es la función del módulo json en relación con los diccionarios en Python?
+¿Cómo se utiliza el módulo json para serializar y deserializar diccionarios en Python?
+¿Cuál es la función del método dict.fromkeys() en Python y cómo se utiliza?
+¿Cómo se utiliza el método dict.fromkeys() para crear un nuevo diccionario con claves especificadas y valores predeterminados en Python?
+¿Cuál es la función del método dict.setdefault() en Python y cómo se utiliza?
+¿Cómo se utiliza el método dict.setdefault() para obtener el valor asociado a una clave en un diccionario en Python, y si la clave no está presente, insertarla con un valor predeterminado?
+
+prueba tecnica sobre funciones
+¿Qué es una función en Python y cuál es su función principal?
+¿Cómo se define una función en Python?
+¿Cuál es la sintaxis para llamar a una función en Python?
+¿Cuál es la diferencia entre una función y una expresión lambda en Python?
+¿Cuál es la función de la palabra clave def al definir una función en Python?
+¿Cuál es la función del nombre de la función al definir una función en Python?
+¿Cuál es la función de los paréntesis () al definir una función en Python?
+¿Cuál es la función de los parámetros en una función en Python?
+¿Cómo se pasa un argumento a una función en Python?
+¿Cuál es la función de los parámetros predeterminados en una función en Python?
+¿Cómo se utiliza un valor predeterminado para un parámetro en una función en Python?
+¿Cuál es la función de los argumentos posicionales en una función en Python?
+¿Cómo se utiliza un argumento posicional en una función en Python?
+¿Cuál es la función de los argumentos de palabras clave en una función en Python?
+¿Cómo se utiliza un argumento de palabra clave en una función en Python?
+¿Cuál es la diferencia entre un parámetro de palabras clave y un argumento de palabras clave en Python?
+¿Cuál es la función de los parámetros arbitrarios en una función en Python?
+¿Cómo se utilizan los parámetros arbitrarios en una función en Python?
+¿Cuál es la función de la palabra clave return en una función en Python?
+¿Cómo se utiliza la palabra clave return para devolver un valor desde una función en Python?
+¿Cuál es la función de las funciones sin retorno (None) en Python?
+¿Cómo se utiliza una función sin retorno (None) en Python?
+¿Cuál es la función de los docstrings en Python?
+¿Cómo se utiliza un docstring para documentar una función en Python?
+¿Cuál es la función de las funciones anidadas en Python?
+¿Cómo se define una función anidada en Python?
+¿Cuál es la función de los cierres (closures) en Python?
+¿Cómo se utiliza un cierre en Python?
+¿Cuál es la función de los decoradores en Python?
+¿Cómo se define un decorador en Python?
+¿Cuál es la función de los argumentos de longitud variable (*args y **kwargs) en una función en Python?
+¿Cómo se utilizan los argumentos de longitud variable en una función en Python?
+¿Cuál es la función de la función lambda en Python y cómo se utiliza?
+¿Cómo se define una expresión lambda en Python?
+¿Cuál es la diferencia entre una función definida con def y una expresión lambda en Python?
+¿Cuál es la función de la función map() en Python y cómo se utiliza en conjunción con funciones?
+¿Cómo se utiliza la función map() para aplicar una función a cada elemento de un iterable en Python?
+¿Cuál es la función de la función filter() en Python y cómo se utiliza en conjunción con funciones?
+¿Cómo se utiliza la función filter() para filtrar elementos de un iterable en Python?
+¿Cuál es la función de las funciones sorted() y reversed() en Python y cómo se utilizan en conjunción con funciones?
+¿Cómo se utiliza la función sorted() para ordenar elementos de un iterable en Python?
+¿Cómo se utiliza la función reversed() para invertir el orden de elementos de un iterable en Python?
+¿Cuál es la función de la función any() en Python y cómo se utiliza en conjunción con funciones?
+¿Cómo se utiliza la función any() para verificar si al menos un elemento de un iterable es verdadero en Python?
+¿Cuál es la función de la función all() en Python y cómo se utiliza en conjunción con funciones?
+¿Cómo se utiliza la función all() para verificar si todos los elementos de un iterable son verdaderos en Python?
+¿Cuál es la función de la función sum() en Python y cómo se utiliza en conjunción con funciones?
+¿Cómo se utiliza la función sum() para sumar elementos de un iterable en Python?
+¿Cuál es la función de la función max() y min() en Python y cómo se utilizan en conjunción con funciones?
+¿Cómo se utiliza la función max() para encontrar el valor máximo en un iterable en Python?
+¿Cómo se utiliza la función min() para encontrar el valor mínimo en un iterable en Python?
+¿Cuál es la función de las funciones enumerate() y zip() en Python y cómo se utilizan en conjunción con funciones?
+¿Cómo se utiliza la función enumerate() para obtener índices y elementos de un iterable en Python?
+¿Cómo se utiliza la función zip() para combinar varios iterables en Python?
+¿Cuál es la función de las funciones any() y all() en Python y cómo se utilizan en conjunción con funciones?
+¿Cómo se utiliza la función any() para verificaprueba tecnica de oop Python
+
+prueba tecnica de oop Python
+¿Qué es la programación orientada a objetos (POO) y cuál es su objetivo principal?
+¿Cuáles son los cuatro principios fundamentales de la POO?
+¿Cuál es la diferencia entre una clase y un objeto en Python?
+¿Cómo se define una clase en Python?
+¿Cuál es la función del método __init__() en una clase en Python?
+¿Cómo se utiliza el método __init__() para inicializar los atributos de un objeto en Python?
+¿Cuál es la función del método self en una clase en Python?
+¿Qué es la programación orientada a objetos (POO) y cuál es su objetivo principal?
+¿Cuáles son los cuatro principios fundamentales de la POO?
+¿Cuál es la diferencia entre una clase y un objeto en Python?
+¿Cómo se define una clase en Python?
+¿Cuál es la función del método __init__() en una clase en Python?
+¿Cómo se utiliza el método __init__() para inicializar los atributos de un objeto en Python?
+¿Cuál es la función del método self en una clase en Python?
+¿Por qué se utiliza la palabra clave self en los métodos de una clase en Python?
+¿Cuál es la función del método __str__() en una clase en Python?
+¿Cómo se utiliza el método __str__() para devolver una representación de cadena legible de un objeto en Python?
+¿Cuál es la función del método __repr__() en una clase en Python?
+¿Cómo se utiliza el método __repr__() para devolver una representación de cadena no ambigua de un objeto en Python?
+¿Cuál es la función del método __del__() en una clase en Python?
+¿Cómo se utiliza el método __del__() para realizar acciones de limpieza antes de que un objeto sea destruido en Python?
+¿Cuál es la función del método __getattr__() en una clase en Python?
+¿Cómo se utiliza el método __getattr__() para interceptar los intentos de acceso a atributos inexistentes en Python?
+¿Cuál es la función del método __setattr__() en una clase en Python?
+¿Cómo se utiliza el método __setattr__() para interceptar los intentos de establecer valores de atributos en Python?
+¿Cuál es la función del método __getitem__() en una clase en Python?
+¿Cómo se utiliza el método __getitem__() para permitir el acceso a elementos de una clase como si fuera un contenedor en Python?
+¿Cuál es la función del método __setitem__() en una clase en Python?
+¿Cómo se utiliza el método __setitem__() para permitir la asignación de valores a elementos de una clase como si fuera un contenedor en Python?
+¿Cuál es la función del método __len__() en una clase en Python?
+¿Cómo se utiliza el método __len__() para devolver la longitud de una clase en Python?
+¿Cuál es la función del método __iter__() en una clase en Python?
+¿Cómo se utiliza el método __iter__() para hacer que una clase sea iterable en Python?
+¿Cuál es la función del método __next__() en una clase en Python?
+¿Cómo se utiliza el método __next__() para definir el comportamiento de iteración de una clase en Python?
+¿Cuál es la función de los métodos estáticos en una clase en Python?
+¿Cómo se define un método estático en Python?
+¿Cuál es la diferencia entre un método de instancia y un método estático en Python?
+¿Cuál es la función de los métodos de clase en una clase en Python?
+¿Cómo se define un método de clase en Python?
+¿Cuál es la diferencia entre un método de instancia, un método estático y un método de clase en Python?
+¿Cuál es la función de la herencia en la POO?
+¿Cómo se realiza la herencia en Python?
+¿Cuál es la función de la palabra clave super() en Python?
+¿Cómo se utiliza la palabra clave super() para llamar a métodos de la clase base en Python?
+¿Cuál es la diferencia entre herencia simple y herencia múltiple en Python?
+¿Cuál es la función de la herencia múltiple en Python?
+¿Cuál es la función de la herencia de interfaces en Python?
+¿Cómo se implementa la herencia de interfaces en Python?
+¿Cuál es la función del método issubclass() en Python?
+¿Cómo se utiliza el método issubclass() para verificar la relación de herencia entre clases en Python?
+¿Cuál es la función del método isinstance() en Python?
+¿Cómo se utiliza el método isinstance() para verificar si un objeto es una instancia de una clase en Python?
+¿Cuál es la función de la composición en la POO?
+¿Cómo se implementa la composición en Python?
+¿Cuál es la diferencia entre herencia y composición en Python?
+¿Cuál es la función del polimorfismo en la POO?
+¿Cómo se implementa el polimorfismo en Python?
+¿Cuál es la diferencia entre el polimorfismo estático y dinámico en Python?
+¿Cuál es la función de los métodos mágicos en Python?
+¿Cómo se utilizan los métodos mágicos para realizar operaciones especiales en Python?
+¿Cuál es la función del método classmethod() en Python?
+¿Cómo se utiliza el método classmethod() para definir un método de clase en Python?
+¿Cuál es la función del método staticmethod() en Python?
+¿Cómo se utiliza el método staticmethod() para definir un método estático en Python?
+¿Cuál es la función de las propiedades en Python?
+¿Cómo se define una propiedad en Python y cuál es su utilidad?¿Por qué se utiliza la palabra clave self en los métodos de una clase en Python?
+¿Cuál es la función del método __str__() en una clase en Python?
+¿Cómo se utiliza el método __str__() para devolver una representación de cadena legible de un objeto en Python?
+¿Cuál es la función del método __repr__() en una clase en Python?
+¿Cómo se utiliza el método __repr__() para devolver una representación de cadena no ambigua de un objeto en Python?
+¿Cuál es la función del método __del__() en una clase en Python?
+¿Cómo se utiliza el método __del__() para realizar acciones de limpieza antes de que un objeto sea destruido en Python?
+¿Cuál es la función del método __getattr__() en una clase en Python?
+¿Cómo se utiliza el método __getattr__() para interceptar los intentos de acceso a atributos inexistentes en Python?
+¿Cuál es la función del método __setattr__() en una clase en Python?
+¿Cómo se utiliza el método __setattr__() para interceptar los intentos de establecer valores de atributos en Python?
+¿Cuál es la función del método __getitem__() en una clase en Python?
+¿Cómo se utiliza el método __getitem__() para permitir el acceso a elementos de una clase como si fuera un contenedor en Python?
+¿Cuál es la función del método __setitem__() en una clase en Python?
+¿Cómo se utiliza el método __setitem__() para permitir la asignación de valores a elementos de una clase como si fuera un contenedor en Python?
+¿Cuál es la función del método __len__() en una clase en Python?
+¿Cómo se utiliza el método __len__() para devolver la longitud de una clase en Python?
+¿Cuál es la función del método __iter__() en una clase en Python?
+¿Cómo se utiliza el método __iter__() para hacer que una clase sea iterable en Python?
+¿Cuál es la función del método __next__() en una clase en Python?
+¿Cómo se utiliza el método __next__() para definir el comportamiento de iteración de una clase en Python?
+¿Cuál es la función de los métodos estáticos en una clase en Python?
+¿Cómo se define un método estático en Python?
+¿Cuál es la diferencia entre un método de instancia y un método estático en Python?
+¿Cuál es la función de los métodos de clase en una clase en Python?
+¿Cómo se define un método de clase en Python?
+¿Cuál es la diferencia entre un método de instancia, un método estático y un método de clase en Python?
+¿Cuál es la función de la herencia en la POO?
+¿Cómo se realiza la herencia en Python?
+¿Cuál es la función de la palabra clave super() en Python?
+¿Cómo se utiliza la palabra clave super() para llamar a métodos de la clase base en Python?
+¿Cuál es la diferencia entre herencia simple y herencia múltiple en Python?
+¿Cuál es la función de la herencia múltiple en Python?
+¿Cuál es la función de la herencia de interfaces en Python?
+¿Cómo se implementa la herencia de interfaces en Python?
+¿Cuál es la función del método issubclass() en Python?
+¿Cómo se utiliza el método issubclass() para verificar la relación de herencia entre clases en Python?
+¿Cuál es la función del método isinstance() en Python?
+¿Cómo se utiliza el método isinstance() para verificar si un objeto es una instancia de una clase en Python?
+¿Cuál es la función de la composición en la POO?
+¿Cómo se implementa la composición en Python?
+¿Cuál es la diferencia entre herencia y composición en Python?
+¿Cuál es la función del polimorfismo en la POO?
+¿Cómo se implementa el polimorfismo en Python?
+¿Cuál es la diferencia entre el polimorfismo estático y dinámico en Python?
+¿Cuál es la función de los métodos mágicos en Python?
+¿Cómo se utilizan los métodos mágicos para realizar operaciones especiales en Python?
+¿Cuál es la función del método classmethod() en Python?
+¿Cómo se utiliza el método classmethod() para definir un método de clase en Python?
+¿Cuál es la función del método staticmethod() en Python?
+¿Cómo se utiliza el método staticmethod() para definir un método estático en Python?
+¿Cuál es la función de las propiedades en Python?
+¿Cómo se define una propiedad en Python y cuál es su utilidad?r si al menos un elemento de un iterable es verdadero en Python?
+¿Cómo se utiliza la función all() para verificar si todos los elementos de un iterable son verdaderos en Python?
+¿Cuál es la función de la función reversed() y sorted() en Python y cómo se utilizan en conjunción con funciones?
+¿Cómo se utiliza la función reversed() para invertir el orden de un iterable en Python?
+¿Cómo se utiliza la función sorted() para ordenar un iterable en Python?
+
+prueba tecnica de ficheros
+¿Cuál es la función de trabajar con archivos en Python?
+¿Cuál es la diferencia entre abrir un archivo en modo lectura ('r') y modo escritura ('w') en Python?
+¿Cómo se abre un archivo en Python utilizando la función open()?
+¿Qué sucede si intentas abrir un archivo que no existe en modo lectura en Python?
+¿Cuál es la función del modo de apertura 'a' al abrir un archivo en Python?
+¿Cómo se utiliza el modo de apertura 'a' para abrir un archivo en modo de adición en Python?
+¿Cuál es la función del modo de apertura 'r+' al abrir un archivo en Python?
+¿Cómo se utiliza el modo de apertura 'r+' para abrir un archivo en modo lectura y escritura en Python?
+¿Cuál es la función del modo de apertura 'w+' al abrir un archivo en Python?
+¿Cómo se utiliza el modo de apertura 'w+' para abrir un archivo en modo lectura y escritura en Python?
+¿Cuál es la función del método read() al trabajar con archivos en Python?
+¿Cómo se utiliza el método read() para leer el contenido completo de un archivo en Python?
+¿Cuál es la función del método readline() al trabajar con archivos en Python?
+¿Cómo se utiliza el método readline() para leer una línea de un archivo en Python?
+¿Cuál es la función del método readlines() al trabajar con archivos en Python?
+¿Cómo se utiliza el método readlines() para leer todas las líneas de un archivo en Python?
+¿Cuál es la función del método write() al trabajar con archivos en Python?
+¿Cómo se utiliza el método write() para escribir contenido en un archivo en Python?
+¿Cuál es la función del método writelines() al trabajar con archivos en Python?
+¿Cómo se utiliza el método writelines() para escribir una lista de líneas en un archivo en Python?
+¿Cuál es la función del método close() al trabajar con archivos en Python?
+¿Cómo se utiliza el método close() para cerrar un archivo en Python?
+¿Cuál es la función del administrador de contexto (with) al trabajar con archivos en Python?
+¿Cómo se utiliza el administrador de contexto (with) para abrir y cerrar un archivo en Python de forma automática?
+¿Cuál es la función del método flush() al trabajar con archivos en Python?
+¿Cómo se utiliza el método flush() para forzar la escritura de datos en un archivo en Python?
+¿Cuál es la función del método seek() al trabajar con archivos en Python?
+¿Cómo se utiliza el método seek() para cambiar la posición del puntero de lectura/escritura en un archivo en Python?
+¿Cuál es la función del método tell() al trabajar con archivos en Python?
+¿Cómo se utiliza el método tell() para obtener la posición actual del puntero de lectura/escritura en un archivo en Python?
+¿Cuál es la función de los modos de apertura 'rb', 'wb' y 'ab' al trabajar con archivos binarios en Python?
+¿Cómo se utilizan los modos de apertura 'rb', 'wb' y 'ab' para trabajar con archivos binarios en Python?
+¿Cuál es la función del módulo pickle en Python en relación con el manejo de archivos binarios?
+¿Cómo se utiliza el módulo pickle para serializar y deserializar objetos en Python?
+¿Cuál es la función del módulo json en Python en relación con el manejo de archivos de texto?
+¿Cómo se utiliza el módulo json para leer y escribir datos estructurados en formato JSON en Python?
+¿Cuál es la función del método os.path.exists() en Python y cómo se utiliza?
+¿Cómo se utiliza el método os.path.exists() para verificar si un archivo o directorio existe en Python?
+¿Cuál es la función del módulo os en Python en relación con el manejo de archivos y directorios?
+¿Cómo se utiliza el módulo os para realizar operaciones relacionadas con archivos y directorios en Python?
+¿Cuál es la función del método os.listdir() en Python y cómo se utiliza?
+¿Cómo se utiliza el método os.listdir() para obtener una lista de archivos y directorios en un directorio en Python?
+¿Cuál es la función del método os.mkdir() en Python y cómo se utiliza?
+¿Cómo se utiliza el método os.mkdir() para crear un directorio en Python?
+¿Cuál es la función del método os.rmdir() en Python y cómo se utiliza?
+¿Cómo se utiliza el método os.rmdir() para eliminar un directorio vacío en Python?
+¿Cuál es la función del método os.remove() en Python y cómo se utiliza?
+¿Cómo se utiliza el método os.remove() para eliminar un archivo en Python?
+¿Cuál es la función del módulo shutil en Python y cómo se utiliza?
+¿Cómo se utiliza el módulo shutil para realizar operaciones avanzadas de manipulación de archivos y directorios en Python?
+¿Cuál es la función del método os.path.join() en Python y cómo se utiliza?
+¿Cómo se utiliza el método os.path.join() para construir rutas de archivos y directorios de forma segura en Python?
+¿Cuál es la función del método os.path.isfile() en Python y cómo se utiliza?
+¿Cómo se utiliza el método os.path.isfile() para verificar si una ruta es un archivo en Python?
+¿Cuál es la función del método os.path.isdir() en Python y cómo se utiliza?
+¿Cómo se utiliza el método os.path.isdir() para verificar si una ruta es un directorio en Python?
+¿Cuál es la función del módulo tempfile en Python y cómo se utiliza?
+¿Cómo se utiliza el módulo tempfile para trabajar con archivos temporales en Python?
+¿Cuál es la función del módulo io en Python y cómo se utiliza?
+¿Cómo se utiliza el módulo io para trabajar con flujos de entrada/salida en Python?
+
+prueba tecnica de manejo de excepciones en Python
+¿Qué es una excepción en Python y cuál es su propósito principal?
+¿Cuál es la diferencia entre un error de sintaxis y una excepción en Python?
+¿Cómo se manejan las excepciones en Python?
+¿Cuál es la sintaxis general de un bloque try-except en Python?
+¿Qué sucede cuando se produce una excepción dentro de un bloque try en Python?
+¿Cómo se especifica qué tipo de excepción se desea manejar en un bloque except en Python?
+¿Qué sucede si no se especifica ningún tipo de excepción en un bloque except en Python?
+¿Cuál es la función del bloque else en un manejo de excepciones en Python?
+¿En qué circunstancias se ejecuta el bloque else en un manejo de excepciones en Python?
+¿Cuál es la función del bloque finally en un manejo de excepciones en Python?
+¿En qué circunstancias se ejecuta el bloque finally en un manejo de excepciones en Python?
+¿Cuál es la diferencia entre los bloques else y finally en un manejo de excepciones en Python?
+¿Cuál es la función del objeto de excepción en Python?
+¿Cómo se accede a la información sobre la excepción que se ha producido en Python?
+¿Cuál es la función de la palabra clave raise en Python?
+¿Cómo se utiliza la palabra clave raise para provocar intencionalmente una excepción en Python?
+¿Cuál es la diferencia entre raise con y sin argumentos en Python?
+¿Qué sucede si se produce una excepción dentro de un bloque finally en Python?
+¿Es necesario tener un bloque except después de un bloque try en Python?
+¿Cuál es la función del bloque try-except-else en Python?
+¿En qué circunstancias se ejecuta el bloque else en un bloque try-except-else en Python?
+¿Cuál es la función del bloque try-except-finally en Python?
+¿En qué circunstancias se ejecuta el bloque finally en un bloque try-except-finally en Python?
+¿Cuál es la función del bloque try-except-else-finally en Python?
+¿En qué orden se ejecutan los bloques try, except, else y finally en Python?
+¿Cuál es la función de la jerarquía de excepciones en Python?
+¿Cómo se define una jerarquía de excepciones personalizada en Python?
+¿Cuál es la función del bloque except Exception en Python?
+¿Qué sucede si no se maneja una excepción en Python?
+¿Cuál es la diferencia entre manejar una excepción específica y manejar la clase base Exception en Python?
+¿Cuál es la función de las excepciones incorporadas en Python, como ZeroDivisionError y TypeError?
+¿Cómo se manejan las excepciones incorporadas en Python?
+¿Qué sucede si se produce una excepción que no está siendo manejada en Python?
+¿Cuál es la función del bloque try-except-else en Python?
+¿En qué circunstancias se ejecuta el bloque else en un bloque try-except-else en Python?
+¿Cuál es la función del bloque try-except-finally en Python?
+¿En qué circunstancias se ejecuta el bloque finally en un bloque try-except-finally en Python?
+¿Cuál es la función del bloque try-except-else-finally en Python?
+¿En qué orden se ejecutan los bloques try, except, else y finally en Python?
+¿Cuál es la función de la jerarquía de excepciones en Python?
+¿Cómo se define una jerarquía de excepciones personalizada en Python?
+¿Cuál es la función del bloque except Exception en Python?
+¿Qué sucede si no se maneja una excepción en Python?
+¿Cuál es la diferencia entre manejar una excepción específica y manejar la clase base Exception en Python?
+¿Cuál es la función de las excepciones incorporadas en Python, como ZeroDivisionError y TypeError?
+¿Cómo se manejan las excepciones incorporadas en Python?
+¿Qué sucede si se produce una excepción que no está siendo manejada en Python?
+¿Cuál es la función de la palabra clave assert en Python y cómo se utiliza?
+¿Cómo se utiliza la palabra clave assert para realizar afirmaciones en Python?
+¿Cuál es la diferencia entre una excepción y un error en Python?
+¿Cuál es la función del módulo traceback en Python?
+¿Cómo se utiliza el módulo traceback para obtener información sobre la pila de llamadas en Python?
+¿Qué es la propagación de excepciones en Python y cuál es su impacto en el manejo de excepciones?
+¿Cuál es la función de los bloques try-except anidados en Python?
+¿Cómo se utiliza el manejo de excepciones anidado para capturar y manejar excepciones específicas en Python?
+¿Cuál es la función de la palabra clave else dentro de un bloque try anidado en Python?
+¿En qué circunstancias se ejecuta el bloque else dentro de un bloque try anidado en Python?
+¿Cuál es la función de la palabra clave finally dentro de un bloque try anidado en Python?
+¿En qué circunstancias se ejecuta el bloque finally dentro de un bloque try anidado en Python?
+¿Cómo se capturan y manejan excepciones específicas dentro de bloques try anidados en Python?
+
+prueba tecnica de manipulacion de fechas
+¿Qué módulo se utiliza en Python para trabajar con fechas y tiempos?
+¿Cómo se importa el módulo de fechas y tiempos en Python?
+¿Cuál es la función de la clase date en el módulo datetime de Python?
+¿Cómo se crea un objeto de fecha utilizando la clase date en Python?
+¿Cuál es la función de los atributos year, month y day en un objeto de fecha en Python?
+¿Cómo se accede a los atributos year, month y day de un objeto de fecha en Python?
+¿Cuál es la función del método today() en la clase date en Python?
+¿Cómo se utiliza el método today() para obtener la fecha actual en Python?
+¿Cuál es la función del método strftime() en la clase date en Python?
+¿Cómo se utiliza el método strftime() para formatear un objeto de fecha como una cadena en Python?
+¿Cuál es la función del método strptime() en la clase date en Python?
+¿Cómo se utiliza el método strptime() para crear un objeto de fecha a partir de una cadena en Python?
+¿Cuál es la función de la clase time en el módulo datetime de Python?
+¿Cómo se crea un objeto de tiempo utilizando la clase time en Python?
+¿Cuál es la función de los atributos hour, minute, second y microsecond en un objeto de tiempo en Python?
+¿Cómo se accede a los atributos hour, minute, second y microsecond de un objeto de tiempo en Python?
+¿Cuál es la función del método strftime() en la clase time en Python?
+¿Cómo se utiliza el método strftime() para formatear un objeto de tiempo como una cadena en Python?
+¿Cuál es la función del método strptime() en la clase time en Python?
+¿Cómo se utiliza el método strptime() para crear un objeto de tiempo a partir de una cadena en Python?
+¿Cuál es la función de la clase datetime en el módulo datetime de Python?
+¿Cómo se crea un objeto de fecha y hora utilizando la clase datetime en Python?
+¿Cuál es la función de los atributos year, month, day, hour, minute, second y microsecond en un objeto de fecha y hora en Python?
+¿Cómo se accede a los atributos year, month, day, hour, minute, second y microsecond de un objeto de fecha y hora en Python?
+¿Cuál es la función del método strftime() en la clase datetime en Python?
+¿Cómo se utiliza el método strftime() para formatear un objeto de fecha y hora como una cadena en Python?
+¿Cuál es la función del método strptime() en la clase datetime en Python?
+¿Cómo se utiliza el método strptime() para crear un objeto de fecha y hora a partir de una cadena en Python?
+¿Cuál es la función del módulo timedelta en el módulo datetime de Python?
+¿Cómo se crea un objeto timedelta para representar un período de tiempo en Python?
+¿Cuál es la función de los atributos days, seconds y microseconds en un objeto timedelta en Python?
+¿Cómo se accede a los atributos days, seconds y microseconds de un objeto timedelta en Python?
+¿Cuál es la función del método total_seconds() en un objeto timedelta en Python?
+¿Cómo se utiliza el método total_seconds() para obtener la duración total de un objeto timedelta en segundos en Python?
+¿Cuál es la función del método days en un objeto timedelta en Python?
+¿Cómo se utiliza el método days para obtener la duración total de un objeto timedelta en días en Python?
+¿Cuál es la función del método seconds en un objeto timedelta en Python?
+¿Cómo se utiliza el método seconds para obtener la duración total de un objeto timedelta en segundos, excluyendo los días, en Python?
+¿Cuál es la función del método microseconds en un objeto timedelta en Python?
+¿Cómo se utiliza el método microseconds para obtener la duración total de un objeto timedelta en microsegundos, excluyendo los días y segundos, en Python?
+¿Cuál es la función del método days, seconds y microseconds en un objeto timedelta en Python?
+¿Cómo se accede a los atributos days, seconds y microseconds de un objeto timedelta en Python?
+¿Cuál es la función del método total_seconds() en un objeto timedelta en Python?
+¿Cómo se utiliza el método total_seconds() para obtener la duración total de un objeto timedelta en segundos en Python?
+¿Cuál es la función del método days en un objeto timedelta en Python?
+¿Cómo se utiliza el método days para obtener la duración total de un objeto timedelta en días en Python?
+¿Cuál es la función del método seconds en un objeto timedelta en Python?
+¿Cómo se utiliza el método seconds para obtener la duración total de un objeto timedelta en segundos, excluyendo los días, en Python?
+¿Cuál es la función del método microseconds en un objeto timedelta en Python?
+¿Cómo se utiliza el método microseconds para obtener la duración total de un objeto timedelta en microsegundos, excluyendo los días y segundos, en Python?
+¿Cuál es la función del módulo calendar en Python?
+¿Cómo se utiliza el módulo calendar para trabajar con calendarios en Python?
+¿Cuál es la función del método month() en el módulo calendar en Python?
+¿Cómo se utiliza el método month() para generar un calendario de un mes específico en Python?
+¿Cuál es la función del método weekday() en el módulo calendar en Python?
+¿Cómo se utiliza el método weekday() para obtener el día de la semana para una fecha específica en Python?
+¿Cuál es la función del método isleap() en el módulo calendar en Python?
+¿Cómo se utiliza el método isleap() para verificar si un año es bisiesto en Python?
+¿Cuál es la función del método leapdays() en el módulo calendar en Python?
+¿Cómo se utiliza el método leapdays() para contar el número de años bisiestos en un rango de años en Python?
+
+prueba tecnica de modulos
+¿Qué es un módulo en Python y cuál es su propósito?
+¿Cuál es la diferencia entre un módulo y un paquete en Python?
+¿Cómo se importa un módulo en Python?
+¿Cuál es la diferencia entre importar un módulo utilizando import module y from module import * en Python?
+¿Qué sucede cuando importas un módulo en Python por primera vez?
+¿Qué es un alias de módulo en Python y cómo se utiliza?
+¿Cómo se importa un módulo utilizando un alias en Python?
+¿Cuál es la función del atributo __name__ en un módulo en Python?
+¿Cómo se utiliza el atributo __name__ para verificar si un módulo se está ejecutando como un script en Python?
+¿Qué es un módulo de nivel superior en Python y cuándo se ejecuta su código?
+¿Cómo se crea un módulo de nivel superior en Python?
+¿Cuál es la función del archivo __init__.py en un paquete de Python?
+¿Cómo se utiliza el archivo __init__.py para convertir un directorio en un paquete de Python?
+¿Cuál es la diferencia entre un módulo normal y un módulo de paquete en Python?
+¿Cómo se importa un módulo desde un paquete en Python?
+¿Cuál es la función del módulo sys en Python?
+¿Cómo se importa y utiliza el módulo sys en Python?
+¿Cuál es la función del módulo os en Python?
+¿Cómo se importa y utiliza el módulo os en Python?
+¿Cuál es la función del módulo random en Python?
+¿Cómo se importa y utiliza el módulo random en Python?
+¿Cuál es la función del módulo math en Python?
+¿Cómo se importa y utiliza el módulo math en Python?
+¿Cuál es la función del módulo datetime en Python?
+¿Cómo se importa y utiliza el módulo datetime en Python?
+¿Cuál es la función del módulo json en Python?
+¿Cómo se importa y utiliza el módulo json en Python?
+¿Cuál es la función del módulo csv en Python?
+¿Cómo se importa y utiliza el módulo csv en Python?
+¿Cuál es la función del módulo re en Python?
+¿Cómo se importa y utiliza el módulo re en Python?
+¿Cuál es la función del módulo requests en Python?
+¿Cómo se importa y utiliza el módulo requests en Python?
+¿Cuál es la función del módulo numpy en Python?
+¿Cómo se importa y utiliza el módulo numpy en Python?
+¿Cuál es la función del módulo pandas en Python?
+¿Cómo se importa y utiliza el módulo pandas en Python?
+¿Cuál es la función del módulo matplotlib en Python?
+¿Cómo se importa y utiliza el módulo matplotlib en Python?
+¿Cuál es la función del módulo tkinter en Python?
+¿Cómo se importa y utiliza el módulo tkinter en Python?
+¿Cuál es la función del módulo collections en Python?
+¿Cómo se importa y utiliza el módulo collections en Python?
+¿Cuál es la función del módulo itertools en Python?
+¿Cómo se importa y utiliza el módulo itertools en Python?
+¿Cuál es la función del módulo functools en Python?
+¿Cómo se importa y utiliza el módulo functools en Python?
+¿Cuál es la función del módulo logging en Python?
+¿Cómo se importa y utiliza el módulo logging en Python?
+¿Cuál es la función del módulo argparse en Python?
+¿Cómo se importa y utiliza el módulo argparse en Python?
+¿Cuál es la función del módulo unittest en Python?
+¿Cómo se importa y utiliza el módulo unittest en Python?
+¿Cuál es la función del módulo timeit en Python?
+¿Cómo se importa y utiliza el módulo timeit en Python?
+¿Cuál es la función del módulo multiprocessing en Python?
+¿Cómo se importa y utiliza el módulo multiprocessing en Python?
+¿Cuál es la función del módulo subprocess en Python?
+¿Cómo se importa y utiliza el módulo subprocess en Python?
+¿Cuál es la función del módulo sqlite3 en Python?
+¿Cómo se importa y utiliza el módulo sqlite3 en Python?
+¿Cuál es la función del módulo socket en Python?
+¿Cómo se importa y utiliza el módulo socket en Python?
+¿Cuál es la función del módulo pickle en Python?
+¿Cómo se importa y utiliza el módulo pickle en Python?
+¿Cuál es la función del módulo os.path en Python?
+¿Cómo se importa y utiliza el módulo os.path en Python?
+¿Cuál es la función del módulo sys.path en Python?
+¿Cómo se importa y utiliza el módulo sys.path en Python?
+¿Cuál es la función del módulo site en Python?
+¿Cómo se importa y utiliza el módulo site en Python?
+¿Cuál es la función del módulo sysconfig en Python?
+¿Cómo se importa y utiliza el módulo sysconfig en Python?
+¿Cuál es la función del módulo distutils en Python?
+¿Cómo se importa y utiliza el módulo distutils en Python?
+¿Cuál es la función del módulo platform en Python?
+¿Cómo se importa y utiliza el módulo platform en Python?
+¿Cuál es la función del módulo getpass en Python?
+¿Cómo se importa y utiliza el módulo getpass en Python?
+¿Cuál es la función del módulo glob en Python?
+¿Cómo se importa y utiliza el módulo glob en Python?
+¿Cuál es la función del módulo shutil en Python?
+¿Cómo se importa y utiliza el módulo shutil en Python?
+¿Cuál es la función del módulo tempfile en Python?
+¿Cómo se importa y utiliza el módulo tempfile en Python?
+¿Cuál es la función del módulo io en Python?
+¿Cómo se importa y utiliza el módulo io en Python?
+¿Cuál es la función del módulo configparser en Python?
+¿Cómo se importa y utiliza el módulo configparser en Python?
+¿Cuál es la función del módulo datetime en Python?
+¿Cómo se importa y utiliza el módulo datetime en Python?
+¿Cuál es la función del módulo math en Python?
+¿Cómo se importa y utiliza el módulo math en Python?
+¿Cuál es la función del módulo random en Python?
+¿Cómo se importa y utiliza el módulo random en Python?
+¿Cuál es la función del módulo statistics en Python?
+¿Cómo se importa y utiliza el módulo statistics en Python?
+¿Cuál es la función del módulo logging en Python?
+¿Cómo se importa y utiliza el módulo logging en Python?
+¿Cuál es la función del módulo time en Python?
+¿Cómo se importa y utiliza el módulo time en Python?
+
+
