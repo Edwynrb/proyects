@@ -5,6 +5,7 @@ fundamentos de logica de programacion.
 algoritmos.
 estructuras de datos.
 programacion orientada a objetos.
+hacer pruebas tecnicas sobre los metodos de cada objetivo, listas, tuplas, diccionarios, strings en entre otros.
 
 ____________________________________
 agregar validaciones a las aplicaciones.

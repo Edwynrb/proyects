@@ -237,9 +237,7 @@ Dada una lista de palabras, elimina las palabras que tienen menos de tres letras
 Dada una cadena de texto, imprime las palabras en orden inverso utilizando slicing.
 ¡Espero que estas preguntas adicionales te ayuden a profundizar tus conocimientos sobre slicing e indexing en Python! Si tienes alguna pregunta sobre alguna de ellas o necesitas más detalles, no dudes en pedirlo.
 
-User
-dame mas
-ChatGPT
+
 ¡Claro! Aquí tienes más preguntas sobre slicing e indexing en Python:
 
 Parte 8: Preguntas avanzadas
