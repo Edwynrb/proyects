@@ -6,7 +6,10 @@ algoritmos.
 estructuras de datos.
 programacion orientada a objetos.
 hacer pruebas tecnicas sobre los metodos de cada objetivo, listas, tuplas, diccionarios, strings en entre otros.
-
+temas que mas me cuestan hacer prueba tecnica. 
+recursion.
+funciones.   
+lectura de archivos.
 ____________________________________
 agregar validaciones a las aplicaciones.
 agregar mas dificultad a las aplicaciones.
