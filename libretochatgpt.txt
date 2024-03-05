@@ -10,6 +10,8 @@ temas que mas me cuestan hacer prueba tecnica.
 recursion.
 funciones.   
 lectura de archivos.
+metodos especiales de cada uno de los objetivos prueba tecnica.
+
 ____________________________________
 agregar validaciones a las aplicaciones.
 agregar mas dificultad a las aplicaciones.
