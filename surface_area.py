@@ -45,7 +45,7 @@ side_length = int(input("Enter the side length of the surface area: "))
 # invoke function to calculate surface area of the square 
 print(f"the surface of the square is: {surface_area(side_length)}")
 """
-
+""" 
 # convert app in oriented programaming languajes
 class Surface_area:
     def __init__(self, side_length):
@@ -64,5 +64,39 @@ if __name__ == "__main__":
     surface_area_square = surface_area.calculate_surface_area(side_length)
     # Printing the monthly salary
     print(f"the surface area of the square is: {surface_area_square}")
+"""
+import tkinter as tk
+
+class SurfaceAreaCalculator:
+    def __init__(self, root):
+        self.root = root
+        self.root.title("Surface Area Calculator")
+
+        self.label = tk.Label(root, text="Enter the side length of the square:")
+        self.label.pack()
+
+        self.side_length_entry = tk.Entry(root)
+        self.side_length_entry.pack()
+
+        self.calculate_button = tk.Button(root, text="Calculate Surface Area", command=self.calculate_surface_area)
+        self.calculate_button.pack()
+
+        self.result_label = tk.Label(root, text="")
+        self.result_label.pack()
+
+    def calculate_surface_area(self):
+        try:
+            side_length = float(self.side_length_entry.get())
+            surface_area = side_length * side_length
+            self.result_label.config(text=f"The surface area of the square is: {surface_area}")
+        except ValueError:
+            self.result_label.config(text="Please enter a valid number.")
+
+if __name__ == "__main__":
+    root = tk.Tk()
+    app = SurfaceAreaCalculator(root)
+    root.mainloop()
+
+
     
     
