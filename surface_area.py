@@ -24,6 +24,8 @@ Finally, we print the surface area for each side length stored in the dictionary
 
 # Convert to tinker
 """
+
+"""
 # Get user input
 side_length = int(input("Enter the side length of the surface area: "))
 
@@ -33,3 +35,8 @@ surface_area = side_length * side_length
 # Display results
 print(f"The surface area of the square is: {surface_area}")
 
+"""
+def surface_area(a):
+    return a*a
+side_length = int(input("Enter the side length of the surface area: "))
+print(f"the surface of the square is: {surface_area(side_length)}")
