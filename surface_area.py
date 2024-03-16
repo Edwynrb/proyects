@@ -36,7 +36,33 @@ surface_area = side_length * side_length
 print(f"The surface area of the square is: {surface_area}")
 
 """
+"""
+# this is the function for calculate the side length of the surface area
 def surface_area(a):
     return a*a
+# ask the user for a value 
 side_length = int(input("Enter the side length of the surface area: "))
+# invoke function to calculate surface area of the square 
 print(f"the surface of the square is: {surface_area(side_length)}")
+"""
+
+# convert app in oriented programaming languajes
+class Surface_area:
+    def __init__(self, side_length):
+        # initialize constructor method to initialize the surface object with side length 
+        self.side_length = side_length
+        
+    def calculate_surface_area(self):
+        return self.side_length*self.side_length 
+# Example usage:
+if __name__ == "__main__":
+    # Example value
+    side_length = int(input("Enter the side length of the square: "))
+    # Creating an instance of the Surface class
+    surface_area = Surface_area(side_length)
+    # Calculating the surface area of the square
+    surface_area_square = surface_area.calculate_surface_area()
+    # Printing the monthly salary
+    print(f"the surface area of the square is: {surface_area_square}")
+    
+    
