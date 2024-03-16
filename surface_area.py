@@ -52,8 +52,8 @@ class Surface_area:
         # initialize constructor method to initialize the surface object with side length 
         self.side_length = side_length
         
-    def calculate_surface_area(self):
-        return self.side_length*self.side_length 
+    def calculate_surface_area(self, side_length):
+        return side_length*side_length 
 # Example usage:
 if __name__ == "__main__":
     # Example value
@@ -61,7 +61,7 @@ if __name__ == "__main__":
     # Creating an instance of the Surface class
     surface_area = Surface_area(side_length)
     # Calculating the surface area of the square
-    surface_area_square = surface_area.calculate_surface_area()
+    surface_area_square = surface_area.calculate_surface_area(side_length)
     # Printing the monthly salary
     print(f"the surface area of the square is: {surface_area_square}")
     
