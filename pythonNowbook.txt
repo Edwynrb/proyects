@@ -72,3 +72,57 @@ Choosing a variable name:
 We must choose representative variable names. In the example, the name HoursWorked is clear enough to give us a complete idea of its content. We can give it other good names.
 Others are not so representative for example htr. Possibly we are solving a problem, this name reminds us that we store the hours worked by the operator, but when time passes and we read the diagram we will probably not remenber or understand what hTr means.
 
+3- Flowchart coding in python.
+
+The flow chart is our tool to be able to propose a solution to our to our problem.
+
+In order to test our proposed solution to a problem using a flowchart, we must then code it in python.
+
+We will start with very simple problems and preceed to implement your flowchart and then your coding.
+
+Problem.
+FIND THE SURFACE AREA OF A SQUARE KNOWING THE VALUE OF ONE SIDE.
+
+From the main window of the python environment we proceed to create our second file exercise2.py, we save it as we saw in the previous concept and we code in python the following solution to the flowchart:
+
+side=input("Enter the side measurement of the square:")
+side=int(side)
+surface=side*side
+print("The area of the square is")
+print(surface)
+
+If we execute the program run ->run module, we can verify that keyboard input of the measurement of the side of the square is requested and then it shows us the surface depending on the value enteren:
+
+To enter data by keyboard and display a message, the input function is used. This function returns all characters written by the program operator:
+side=input("Enter the side measurement of the square:")
+The side variable saves all the characters entered but not in numerical format, for this we must call the int function.
+
+side=int(side)
+Now the value entered by the operator is saved again in the side variable but in integer format that makes it possible to do mathematical operations with it.
+
+A simplified format to enter an integer value by keyboard and avoid writting the previous two line is:
+side=int(input("Enter the side measurement of the square:")
+)
+We proceed to calculate the surface area after entering the data via keyboard and converting it to an integer:
+surface=side*side
+To display a message on the screen we have the print function that we pass as a parameter a string of characters to be displayed that must be enclosed in single or double quotes:
+print("The area of the square is")
+
+To display the content of the surface variable we must not enclose it in quote when we call the print function:
+print(surface)
+
+SOME CONSIDERATIONS.
+Python is case sensitive, it is not the same as calling the input function with the syntax: input.
+
+Variable names are also case sensitive. They are two variables if in one place we start the variable "surface" and then make references to "Surface".
+
+Variable names cannot contain blanks, special characters, and begin with a number.
+All the code must be written in the same column, it will be incorrect if we write:
+side=input("Enter the side measurement of the square:")
+  side=int(side)
+   surface=side*side
+   print("The area of the square is")
+   print(surface)
+   There are more restrictions that we will learn as the course progresses.
+
+   
