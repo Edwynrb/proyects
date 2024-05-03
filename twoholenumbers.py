@@ -24,8 +24,7 @@ class Whole_numbers:
         # initialize constructor method to initialize the whole numbers object with numbers  
         self.num1 = 0
         self.num2 = 0
-        self.sum_result = 0
-        self.product_result = 0
+        
 
         
     # Creating method to enter inputs    
