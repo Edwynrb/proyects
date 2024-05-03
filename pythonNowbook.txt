@@ -1,1 +1,74 @@
 pythonNow book.
+1- python tutorial objetives.
+This course is designed to be taken by a person who does not know anything about programming and uses the python language as the first language to approach computer programming.
+
+The fundamental objective of this tutorial is to allow the student to solve problems of different kinds(mathematical, administrative, games, accounting, etc.) using the computer as a tool.
+
+It must be taken into account that to become a programmer you must travel a long path where each topic is fundamental for future concepts. It is important not to leave topics without understanding and relating.
+
+Programming, unlike other subjects that you have studied such as history, requires a methodical and orderly study( in history you can study the middle ages without having great knowledge of the ancient age, this does not happen with learning programming).
+
+Programming is a new activity for the student, there is no similar subject in primary and secondary studies.
+
+It is good to be patient when problems are not completely resolved, but it is fundamentally important to dedicate time to individual analysis of the problems.
+
+WHAT IS A PROGRAM?
+Program: set of instructions that a computer understands to carry out an activity. Every program has a well-defined objetive: a word processor is a program that allows you to load, modify and print texts, a chess program allows you to play chess against the computer or another human opponent.
+The fundamental activity of the programmer is to solve problems using the computer as a fundamental tool.
+
+To solve a problem, an algorithm must be proposed.
+
+ALGORITHM: These are steps to follow to solve problem.
+
+FLOWCHART: A flowchart is the graphical representation of an algorithm.
+
+The main graphic symbols to use for creating flowcharts are:
+
+STATEMENT OF A PROBLEM USING A FLOW CHART.
+
+To create a flow chart we must be very clear about the problem to be solved.
+Example: CALCULATE THE MONTHLY SALARY OF AN OPERATOR KNOWING THE NUMBER OF HOURS WORKED AND THE PAYMENT PER HOUR.
+
+we can identify:
+
+Known data:
+Hours worked in the month.
+hourly.
+
+Process:
+Calculation of salary by multipliying the number of hours by the hourly payment.
+
+Resulting information:
+Montlhy salary.
+
+If we do an analysis, every problem is made up of:
+Known data: Data that is available when posing the problem.
+Process: Operations to be performed with known data.
+Resulting information: It is information that is obtained from the process and allows us to solve problem.
+
+This way of expressing a problem by identifying its known data, processes and resulting information can become cumbersome for complex problems where there are many known data and processes. That is why it is much more effective to represent the steps to solve the problem using a flow chart.
+
+It is much easier to understand a graph than a text.
+The flowchart clearly identifies the input data, operations and output data.
+In the example we have two input data: hoursWorked and CostHour, we represent the inputs with a parallelogram and we make a parallelogram for each input data.
+The operation is represented with a rectangle, we must make a rectangle for each operation.
+At the exit we represent it with the broken leaf.
+
+The flow chart gives us an idea of the order of executation of activities over time. First we load the input data, then we do the necessary operations and finally we display the results.
+
+VARIABLE: It is deposit where there is a value. It consists of a name and belongs to a data type.
+
+For the example given, the variable hoursWorked stores the number of hours worked by the operator. The variable hourValue stores the price of an hour of work. The salary variable stores the salary to be paid to the operator.
+In the example we have three variables.
+
+VARIABLES TYPES.
+
+A variable can store:
+
+integer values(100, 260, etc.)
+Real values (1.24, 2.90, 5.00, etc.)
+
+Choosing a variable name:
+We must choose representative variable names. In the example, the name HoursWorked is clear enough to give us a complete idea of its content. We can give it other good names.
+Others are not so representative for example htr. Possibly we are solving a problem, this name reminds us that we store the hours worked by the operator, but when time passes and we read the diagram we will probably not remenber or understand what hTr means.
+
