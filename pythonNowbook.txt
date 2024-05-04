@@ -373,4 +373,75 @@ MEDIUM LEVEL: PERCENTAGE >=75% AND <90%.
 REGULAR LEVEL: PERCENTAGE >=50% AND <75%.
 OUT OF LEVEL: PERCENTAGE <50%.
 
+8- Composite conditions with logical operators.
+
+So far we have seen the operators:
+relational(>, <, >=, <=, ==, !=)
+math (+,-, *, /, //, **,%)
+but we are missing other essential operators:
+logical (and and or)
+
+Operator and
+
+Translated it is read as Y. If condition 1 is true AND condition 2 is true then execute the true branch.
+When we link two conditions with the and operator, both conditions must be true for the result of the compound condition to be TRUE  and continue throgh the true branch of the conditional structure.
+ 
+The use of logical operators allows in many cases to propose shorter and more understandable algorithms.
+
+Problem:
+CREATE A PROGRAM THAT READS THREE DIFFERENT INTEGERS FROM THE KEYBOARD AND SHOWS US THE LARGEST.
+
+This exercise can be solved without logical operators, but using them allows us to make the solution simpler.
+The first conditional structure is a composite conditional structure with a composite condition.
+We can read it in the following way:
+If the content of variable num1 is greater than the content of variable num2 AND if the content of variable num1 is greater than the content of variable num3 then the composite condition is True.
+If one of the simple conditions returns false, the composite condition returns False and continues through the false branch.
+That is, the content of num1 will be displayed if and only if num1 >num2 and num3.
+If the condition is False, we analyze the content of num2 and num3 to see which has a greater value.
+In this second conditional structure, logical operators are not required as there is a simple condition.
+program exercise19.py
+
+num1=int(input("Enter first value:"))
+num2=int(input("Enter second value:"))
+num3=int(input("Enter third value:"))
+print("The largest of the three values is:")
+print("The largest of the three value is")
+if num1>num2 and num1>num3:
+    print(num1)
+else:
+     if num2>num3:
+         print(num2)
+     else:
+         print(num3)
+
+
+Operator or
+Translated it is read as "O". If condition 1 is True or condition 2 is True, then execute the True branch.
+When we link two or more conditions with the "or" operator, one of the two conditions being True is enough for the result of the compound condition to be True.
+
+Problem:
+A DATE (DAY, MONTH, AND YEAR) IS LOADED BY KEYBOARD. SHOW A MESSAGE IF IT CORRESPONDS TO THE FIRST QUARTER OF THE YEAR(JANUARY, FEBRUARY OR MARCH) LOAD THE NUMERICAL VALUE OF THE DAY, MONTH AND YEAR BY KEYBOARD.
+EXAMPLE: DAY:10 MONTH:2 YEAR:2018
+
+Loading a date is done in parts, we enter the variables day, month and year.
+We show the message corresponds to the first quarter in case the month entered by keyboard is equal to 1,2 or 3.
+The variables day and year do not participate in the condition.
+
+program exercise20.py
+day=int(input("Enter day number:"))
+month=int(input("Enter month number:"))
+year=int(input("Enter year number:"))
+if month==1 or month==2 or month==3:
+    print("Corresponds to the first quarter")
+
+Proposed problems.
+CREATE A PROGRAM THAT ASKS YOU TO LOAD ANY DATE, THEN VERIFY IF SAID DATE CORRESPONDS TO CHRISTMAS.
+
+THREE NUMBERS ARE ENTERED BY KEYBOARD, IF ALL THE VALUES ENTERED ARE LESS THAN 10, PRINT ON THE SCREEN THE LEGEND ALL NUMBERS ARE LESS THAN TEN.
+
+
+
+
+
+
 
