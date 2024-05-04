@@ -203,3 +203,124 @@ MAKE A PROGRAM THAT READS FOUR NUMERICAL VALUES AND REPORTS THEIR SUM AND AVERAG
 
 CALCULATE THE MONTHLY SALARY OF AN OPERATOR KNOWING THE NUMBER OF HOURS WORKED AND THE VALUE PER HOUR.
 
+
+6- Simple and compound conditional structures.
+
+Not all problems can be solved using sequential structures. When a decision has to be made, conditional structures appear.
+In our daily lives we are presented with situations where we must decide.
+Do i choose career A or career B?
+Should i wear these pants?
+To go to work, do I choose path A or path B?
+When taking a degree, do i choose the morning, afternoon or night shift?
+It is common for sequential and conditioal structures to be combined in a problem.
+
+Simple conditional structure.
+When the choice is presented we have the option to do an activity or not do anything.
+Graphic representation of a conditional structure to be used in a flowchart.
+
+
+We can observer: the rhombus represents the condition. There are two options that can be taken. If the conditions is true, the true path is followed, that is, the one on the right; if the condition is false, the left path is followed where there is no activity.
+It is a simple conditional structure because on the true path there are activities and on false path there are no activities.
+On the true path there can be several operations, inputs and outputs, we will even see that there can be other conditional structures:
+ 
+Problem:
+ENTER A PERSON´S SALARY, IF IT EXCEEDS 3000 DOLLARS, DISPLAY A MESSAGE ON THE SCREEN INDICATING THAT THEY MUST PAY TAXES.
+
+We can observe the following: The salary is always charged, but if the salary we enter exceeds 3000 dollars, the message this person must pay taxes will be displayed on the screen. If the person earns 3000 or less, nothing appears on the screen.
+
+Program exercise 9.py
+
+salary=int(input("Enter your salary:"))
+if salary>3000:
+    print("This person must pay taxes")
+
+The keyword if indicates that we are in the presence of a conditional structure; Next we set the condition and end the line with the character two points.
+The activity inside the if is generally indented to 4 spaces.
+Everything that is int the true branch of the if must be arranged 4 spaces to the right.
+Indentation is a mandatory feature of the python language for encoding conditional structures, in this way the python interpreter can identify where the statements contained in the true branch of the if end.
+
+Runnig the program and entering a salary greater than 3000. We can see how the message This person must pay taxes appears on the screenm, since the if the if condition is true:
+
+If we execute it again and enter a value equal to or less than 3000 we can see that the statement found in the true branch of the if is not executed:
+
+Composite conditional structure.
+When the choice is presented we have the option of doing one activity or another. That is, we have activities for the true and false of the condition. The most important thing to keep in mind is that the activities of the or false branches are carried out, the activities of both branches are never carried out.
+
+In a compound conditional structure we have activities on both the true branch and the false branch.
+
+Problem:
+CREATE A PROGRAM THAT ASKS YOU TO ENTER TWO DIFFERENT NUMBERS AND DISPLAYS THE LARGEST OF THEM ON THE SCREEN.
+
+The entry of num1 and num2 is made by keyboard. To know which variable has a greater value, we ask if the content of num 1 is greater(>) than the content of num2. if the answer is true, we go through the branch on the right and print num 1. If the conditions is false, we go through the left branch(False) and print num2.
+As we can see, num1 and num2 are never printed simultaneously.
+
+We are in presence of a COMPOUND CONDITIONAL STRUCTURE since we have activities through the branch of the true and false.
+
+Program: exercise10.py
+
+num1=int(input("Enter first value:")
+num2=int(input("Enter second value:"))
+print("The largest value is")
+if num1>num2:
+    print(num1)
+else:
+    print(num2)
+
+Let´s compare the flowchart and coding and notice that first block after the if represents the true branch and the second block after the else keyword represents the false branch.
+We execute the program, if there were syntactic errors, we correct and load two values, such as:
+Enter the first value: 10 
+Enter the second value:4
+The largest vale is 
+10
+
+If we enter the values 10 and 4, the if condition returns true and executes the first block.
+A program is controlled and corrected by testing all its possible results.
+Let´s run the program again and enter:
+
+Enter the first value:10
+Enter the second value: 54
+The largest value is 
+54
+
+When we correct all the syntactic and logical errors in a program, our task has been completed and we can deliver it to the USER who requested it from us.
+
+Operators.
+Only variables, constant values and relational operators should be provided in a condition.
+RELATIONAL OPERATORS:
+== equality
+!= inequality
+< minor
+<= less than or equal
+> major 
+>= greater than or equal
+
+MATHEMATICAL OPERATORS
++ sum
+- subtraccion
+* multiplication
+/ float division
+// division of integers
+% remainder of a division
+** exponentiation
+
+It must taken into account that when setting a condition we must select which relational operator adapts to the question.
+
+examples:
+
+A number is entered, multiply it by 10 if it is different from 0.(!=)
+Two numbers are entered, display a warning if they are the same. (==)
+
+The problems that can arise are infite and the correct choice of the operator is only achieved with intensive practice in problem solving.
+
+Proposed problems.
+CREATE A PROGRAM THAT REQUEST THE KEYBOARD LOADING OF TWO NUMBERS, IF THE FIRST IS GREATER THAN THE SECOND, REPORT THEIR SUM AND DIFFERENCE, OTHERWISE REPORT THE PRODUCT AND DIVISION OF THE FIRST WITH RESPECT TO THE SECOND.
+
+THREE GRADES ARE ENTERED FOR A STUDENT, IF THE AVERAGE IS GREATER THAN OR EQUAL TO SEVEN, A PROMOTED MESSAGE WILL BE DISPLAYED.
+
+A POSITEVE NUMBER OF ONE OR TWO DIGITS 1..99 IS ENTERED BY KEYBOARD AND A MESSAGE IS DISPLAYED INDICATING WHETER THE NUMBER HAS ONE OR TWO DIGITS.
+(KEEP IN MIND WHAT CONDITION MUST BE MET TO HAVE TWO DIGITS IN AN INTEGER)
+
+
+
+
+
