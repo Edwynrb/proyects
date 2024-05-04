@@ -125,4 +125,41 @@ side=input("Enter the side measurement of the square:")
    print(surface)
    There are more restrictions that we will learn as the course progresses.
 
+4- syntactic and logical errors.
+
+We will modify the problem from the previous concept and purposely add a series of typographical errors. These types of errors are always detected by the python interpreter before executing the program. 
+
+To typographical errors, such as indicating the incorrect name of the function, incorrect variable names, missing parentheses, misspelled keywords, etc.
+We call them SYNTACTIC errors.
+
+A program cannot be executed completely without correcting absolutely all syntax errors.
+There is another type of error called LOGICAL ERRORS. These types of errors in large programs(thousands of lines) are more difficult to locate. For example, a program that allows billing but the data output through the printer is incorrect.
+
+Problem.
+FIND THE SURFACE AREA OF A SQUARE KNOWING THE VALUE OF ONE SIDE.
+
+correctly coded program:
+side=int(input("Enter the side measurement of the square:"))
+surface=side*side
+print("The area of the square is")
+print(surface)
+
+program with a syntax error:
+
+side=int(input("Enter the side measurement of the square:"))
+surface=side*side
+print("The area of the square is")
+print(Surface)
+
+It is incorrect to print a variable that has never been initialized: Surface (we must respect how we started it in the previous lines)
+
+Program with logical error:
+side=int(input("Enter the sie measurement of the square:"))
+surface=side*side*side
+print("The area of the square is")
+print(surface)
+
+As we can see, if we run the program it does not present any syntactic error, but after entering the value of the side of the square(for example the value 10) we obtain an incorrect value as a result(it prints 1000), this is because we incorrectly defined the formula for calculate the surface area of the square:
+surface=side*side*side
+
    
