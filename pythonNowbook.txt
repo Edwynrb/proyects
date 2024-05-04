@@ -320,7 +320,57 @@ THREE GRADES ARE ENTERED FOR A STUDENT, IF THE AVERAGE IS GREATER THAN OR EQUAL 
 A POSITEVE NUMBER OF ONE OR TWO DIGITS 1..99 IS ENTERED BY KEYBOARD AND A MESSAGE IS DISPLAYED INDICATING WHETER THE NUMBER HAS ONE OR TWO DIGITS.
 (KEEP IN MIND WHAT CONDITION MUST BE MET TO HAVE TWO DIGITS IN AN INTEGER)
 
+7-Nestead conditional structures.
 
+We are in the presence of a nested conditional structure when there is another conditional structure on the true or false branch of a conditional structure.
 
+The flowchart presented contains two conditional structures. The main one is a compound conditional structure and the second is a simple conditional structure and is contained by the false branch of the first structure.
+Even more complex nested conditional structures are common.
+
+Problem.
+CREATE A PROGRAM THAT ASKS FOR THREE GRADES FROM A STUDENT BY KEYBOARD, CALCULATES THE AVERAGE AND PRINTS ONE OF THESE MESSAGES:
+IF THE AVERAGE IS>=7, SHOW "PROMOTED"
+IF THE AVERAGE IS>=4, AND <7 SHOW "FAIR"
+IF THE AVERAGE IS <4 SHOW "FAILED"
+
+Let´s analyze the following diagram. Three values are entered by keyboard that represent a student´s grades, the average is obtained by adding the three values and dividing said result by 3 (Keep in mind that the result is a real value since the /  operator is used).
+
+First we ask if the average is greater than or equal to 7, if so it goes through the true branch of the conditional structure we show a message that indicates "Promoted" (with quotes we indicate a text that must be printed on the screen).
+If the condition gives us false, another 
+conditional structure appears through the false branch, because we still have to find out if the student´s average is greater than or equal to four or less than four.
+We are in the presence of two compound conditional structures.
+
+program: exercise14.py
+note1=int(input("Enter first note:"))
+note2=int(input("Enter second note:"))
+note3=int(input("Enter third note:"))
+avg=(note1+note2+note3)/3
+if avg>=7:
+    print("Promoted")
+else:
+
+    if avg>=4:
+        print("regular")
+
+    else:
+        print("failed")
+
+Let´s code and run this program. When you run the program, you must request the loading of three notes via keyboard and show us a message based on their average.
+
+We can observe the coding of the nested if by the else of the first if.
+As we see, we must indent the true and false branches of the nested if to 8 characters.
+
+Proposed problems.
+THREE DIFFERENT NUMBERS ARE LOADED BY KEYBOARD. SHOW THE LARGEST OF THEM ON THE SCREEN.
+
+AN INTEGER VALUE IS ENTERED BY KEYBOARD, DISPLAY A LEGEND THAT INDICATES WHETHER THE NUMBER IS POSITIVE, NEGATIVE OR NULL(THAT IS, ZERO)
+
+CREATE A PROGRAM THAT ALLOWS LOADING A POSITIVE INTEGER OF UP TO THREE DIGITS AND DISPLAY A MESSAGE INDICATING WHETHER IT HAS 1,2,3 DIGITS. SHOW AN ERROR MESSAGE IF THE NUMBER OF FIGURES IS GREATER.
+
+A JOB APPLICANT TAKES A TRAINING TEST, THE FOLLOWING INFORMATION WAS OBTAINED: TOTAL NUMBER OF QUESTIONS ASKED AND THE NUMBER OF QUESTIONS ANSWERED CORRECTLY. IT IS REQUESTED TO CREATE A PROGRAM THAT ENTERS THE TWO DATA BY KEYBOARD AND REPORTS ITS LEVEL ACCORDING TO THE PERCENTAGE OF CORRECT ANSWERS THAT SHE HAS OBTAINED, AND KNOWING THAT:
+MAXIMUM LEVEL: PERCENTAGE>=90%.
+MEDIUM LEVEL: PERCENTAGE >=75% AND <90%.
+REGULAR LEVEL: PERCENTAGE >=50% AND <75%.
+OUT OF LEVEL: PERCENTAGE <50%.
 
 
