@@ -159,7 +159,47 @@ surface=side*side*side
 print("The area of the square is")
 print(surface)
 
-As we can see, if we run the program it does not present any syntactic error, but after entering the value of the side of the square(for example the value 10) we obtain an incorrect value as a result(it prints 1000), this is because we incorrectly defined the formula for calculate the surface area of the square:
+As we can see, if we run the program it does not present any syntactic error, but after entering the value of the side of the square(for example the value 10) we obtain an incorrect value as a result(it prints 1000), this is because we incorrec
+tly defined the formula for calculate the surface area of the square:
 surface=side*side*side
 
-   
+5- sequential programming structure.
+
+When only operations, inputs and outputs participate in a problem, it is called a sequential structure.
+Diagrammed and pre-coded problems use only sequential structures.
+Programming requires continuous practice of diagramming and coding problems:
+
+Problem:
+LOAD TWO INTEGERS BY KEYBOARD AND PRINT THEIR SUM AND PRODUCT.
+
+We have two inputs num 1 and num 2, two operations: the sum and the product of the entered values and two outputs, which are the results of the sum and product of the entered values. In the print symbol we can indicate one or more outputs, this is at the discretion of the programmer, the same for indicating keyboard inputs.
+ 
+num1=int(input("enter first value:"))
+num2=int(input("enter second value:"))
+sum=num1+num2
+product=num1*num2
+print("The sum of the two values is")
+print(sum)
+print("The product of the two values is")
+print(product)
+
+PROBLEM:
+LOAD THE PRICE OF A PRODUCT AND THE QUANTITY TO CARRY. SHOW HOW MUCH SHOULD BE PAID(AN INTEGER VALUE IS ENTERED IN THE PRODUCT PRICE)
+
+We have two inputs: price and quantity, an operation to calculate the amount and an output.
+
+price=int(input("Enter the price of the product:"))
+quantity=int(input("Enter the quantity of products to carry:"))
+amount=price*quantity
+print("The amount to pay is")
+print(amount)
+
+Proposed problems:
+LOAD THE SIDE OF A SQUARE, DISPLAY ITS PERIMETER ON THE SCREEN(THE PERIMETER OF A SQUARE IS CALCULATED BY MULTIPLYING THE VALUE OF THE SIDE BY FOUR)
+
+WRITE A PROGRAM IN WHICH FOUR NUMBERS ARE ENTERED, CALCULATE AND REPORT THE SUM OF THE FIRST TWO AND THE PRODUCT OF THE THIRD AND FOURTH.
+
+MAKE A PROGRAM THAT READS FOUR NUMERICAL VALUES AND REPORTS THEIR SUM AND AVERAGE.
+
+CALCULATE THE MONTHLY SALARY OF AN OPERATOR KNOWING THE NUMBER OF HOURS WORKED AND THE VALUE PER HOUR.
+
