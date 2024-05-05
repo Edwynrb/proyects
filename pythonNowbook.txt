@@ -656,3 +656,39 @@ DEVELOP A PROGRAM THAT ALLOWS US TO LOAD N INTEGERS AND THEN INFORM US HOW MANY 
 USE THE % OPERATOR IN THE CONDITION OF THE CONDITIONAL STRUCTURE(THIS OPERATOR RETURNS THE REMAINDER OF THE DIVISION OF TWO VALUES, FOR EXAMPLE 11%2 RETURNS A 1)
 
 if value%2==0:
+
+10- Repetitive structure for.
+
+Any problem requires a repetitive structure can be solved using the while structure, but there is another repetitive structure whose approach is simpler in certain situations where we have to go through a list of data.
+
+In general, the repetitive for structure is used in those situations in which we want a variable to take a value from a defined list of values.
+
+We will see with a series of examples the use of for.
+
+Problem 1:
+CREATE A PROGRAM THAT PRINTS THE NUMBERS FROM 0 TO 100 ON THE SCREEN. WE CAN SOLVE THIS PROBLEM PERFECTLY WITH THE WHILE LOOP, BUT IN THIS SITUATION WE WILL SOLVE IT USING THE FOR.
+
+Program: exercise39.py
+
+for x in range(101):
+    print(x)
+
+We first have the for keyword and then tha name of the variable that will store the integer value returned by the range function in each return of for.
+
+The range function returns the value 0 the first time and is stored in x, then 1 and so on until it returns the value that we passed to range minus one(that is, in our example it ultimately returns 100)
+
+Let´s keep in mind that this same problem solved, with the while structure should be:
+program: exercise40.py
+x=0
+while x<101:
+    print(x)
+    x=x+1
+
+Problem 2:
+CREATE A PROGRAM THAT PRINTS THE NUMBERS 20 TO 30 ON THE SCREEN.
+
+PROGRAM: exercise41.py
+for x in range(20,31):
+    print(x)
+
+
