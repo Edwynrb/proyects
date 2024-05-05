@@ -453,3 +453,206 @@ C) IF THE SALARY IS GREATER THAN OR EQUAL TO 500, SHOW THE SALARY ON THE SCREEN 
 
 WRITE A PROGRAM IN WHICH: GIVEN A LIST OF THREE DIFFERENT NUMERICAL VALUES, THEIR RANGE OF VARIATION IS CALCULATED AND REPORTED IT MUST SHOW THE LARGEST AND SMALLEST OF THEM.
 
+9- Repetitive while structure.
+
+Until now we have used sequential and conditional structures. There is another type of structures as important as the previous ones, which are repetitive structures. 
+A repeating structure allows an instruction or set of instructions to be executed multiple times.
+
+A repetitive structure is characterized by:
+The sentence or sentences that are repeated.
+The test or condition test before each repetition, which will motivate whether or not the instructions are repeated.
+
+Repetitive while structure.
+We should not confuse the graphical representation of the repetitive while structure with the conditional if structure.
+How it works: First, the condition is verified; if it is true, the operations indicated by the True branch are executed.
+We graph the true branch at the bottom of the condition. A  line at the end of the repeat block connects it to the top of the repeating structure.
+If the condition is False, it continues through the False branch and leaves the repetitive structure to continue with the execution of the algorithm.
+
+The block repeats as long as the condition is True.
+
+Important: If the condition always returns true, we are in the presence of an infinite repetitive cycle. This situation is a logical programming error, the program will never end.
+
+Problem 1:
+CREATE A PROGRAM THAT PRINTS THE NUMBERS FROM 1 TO 100 ON THE SCREEN.
+
+Without knowing the repetitive structures we can solve the problem using a sequential structure. We initialize a variable with the value 1, then print the variable, increment the variable again, and so on.
+
+If we continue with the diagram we would see that is almost endless.
+Using a sequential structure to solve this problem produces a flowchart and a very long python program.
+Now let´s look at the solution using a repetitive while structure:
+
+It is very important to analyze this diagram:
+The first operation initializes the variable x to 1, then the repetitive while structure begins and we set the following condition x<=100, it is read while the variable.
+
+When the condition is executed, it returns True because the content of x (1) is less than or equal to 100. When the condition is true, the block of instructions that contains the while structure is executed. The instruction block contains one output and one operation.
+The content of x is printed, and then the variable x is incremented by one.
+
+The operation x=x+1 is read as the content of x plus 1 is stored in the variable x. That is, if x contains 1, after executing this operation, a 2 will be stored in x.
+At the end of the block of instructions containing the repetitive structure, the condition of the repetitive structures is checked again and the process explained above is repeated.
+
+As long as the condition returns true, the instruction block is executed; when the codition verification returns false, the repetitive structure is exited and the algorithm continues, in this case the program ends.
+
+The most difficult thing is definig the condition of the while structure and which block of statements are going to be repeated. Note that if, for example, we set the condition x>=100 if executes the block of instructions that we wanted to repeat 100 times.
+
+There is no recipe to define a condition of a repetitive structure, but it is achieved with continous practice solving problems.
+
+Once the diagram has been created, we must verify if it is a valid solution to the problem in this case, the numbers from 1 to 100 must be printed on the screen, to do this we can track the flow of the diagram and the values that the variables take throughout the execution:
+x
+1
+2
+3
+4
+.
+. 
+100
+101 When x is 101 the repeating structure condition returns false, in this cace the diagram ends.
+
+Important: We can see that the repeating block may not be executed at all if the condition returns false the first time.
+The variable x must be initialized with some value before the operation x=x+1 is executed. If it is not initialized, a compilation error appears.
+
+program: exercise28.py
+
+x=1 
+while x<=100
+    print(x)
+    x=x+1
+
+Let us remember that a problem will not be 100% solved if we do not code the program in our case in python that shows the desired results.
+
+It is important to note that followed by the while keyword we have the condition and finally the colon. All code contained in the repeating structure must be indented usually four spaces.
+
+Let´s try some modifications of this program and see what changes should be made to:
+
+PRINT THE NUMBERS FROM 1 TO 500.
+PRINT THE NUMBERS FROM 50 TO 100.
+PRINT THE NUMBERS FR0M -50 TO 0.
+PRINT THE NUMBERS FROM 2 TO 100 BUT 2 AT A TIME 2,4,6,8... 100.
+
+Problem 2:
+CODE A PROGRAM THAT REQUEST THE LOADING OF A POSITIVE VALUE AND SHOWS US FROM 1 TO THE ENTERED VALUE ONE BY ONE. EXAMPLE: IF WE ENTER 30, THE NUMBERS 1 TO 30 MUST BE DISPLAYED ON THE SCREEN.
+
+It is of fundamental importance to analyze the flow charts and the subsequent coding in python of the following problems; in several problems other situations not seen in the previous exercise are presented.
+
+We can see that the variable n is entered by keyboard. The operator can load any value.
+If the user loads 10 , the repetitive block will be executed 10 times, since the condition is while x<=n, that is, as long as x is less than or equal to 10; since x starts at one and is incremented by one each time the repeating block is executed.
+
+We can perform the diagram test by giving values to the variables; for example, if we enter 5 vthe tracking is as follows:
+n x
+5 1(The content of x is printed)
+2
+3
+4
+5
+6 (Exits while because 6 is not less than or equal to 5)
+
+program: exercise29.py
+n=int(input("Enter the final value:"))
+
+x=1
+while x<=n:
+    print(x)
+    x=x+1
+
+Variable names n and x can be words or letters (as in this case)
+
+The varible x is called counter. A counter is a special type of variable that is incremented or decrement with constant values during program execution.
+
+The x counter tells us at each moment the number of values printed on the screen.
+
+Problem 3:
+DEVELOP A PROGRAM THAT ALLOWS THE LOADING OF 10 VALUES PER KEYBOARD AND SUBSEQUENTLY SHOWS US THE SUM OF THE ENTERED VALUES AND THEIR AVERAGE.
+
+In this problem, similar to the previous ones, we have a counter called x that seves to count  the number of turns that the while must repeat.
+
+The concept of accumulator also appears (an accumulator is a special type of variable that increases or decreases with variable values during the execution of the program)
+
+We have given the name sum to our accumulator. Each cycle that the repetitive structure is repeated, the sum variable is incremented with the content entered in the value variable.
+
+The diagram test is done by giving values to the variables:
+
+sum x average value
+(Before entering the repetitive structure these are the values)
+5 5 1
+16 21 2
+7 28 3
+
+This is follow-up of the proposed diagram. The numbers that the value variable takes will depend on what figures the operator loads during the execution of the program.
+
+The average is calculated when leaving the repetitive structure(that is, we first add the 10 values entered and then divide them by 10)
+
+It must be taken into account that when the first value is loaded into the value variable(in this example 5), when the second value(16) is loaded, the previous value 5 is lost, the need to store the sum values in the variable. entered.
+program: exercise30.py
+
+x=1
+sum=0
+while x<=10:
+    value=int(input("Enter a value:"))
+     sum=sum+value
+     x=x+1
+average=sum/10
+print("The sum of the 10 value is")
+print(sum)
+print("The average is")
+print(average)
+
+The result of the average is a real value, that is, with a comma. If we want the result of the division to onyly return the integer part of the average, we must use the operator // operator:
+average=sum//10
+
+The python interpreter knows that the average is calculated at the end of the while since it is encoded in column 1. The threes statements contained in the while are indented.
+
+Problem 4:
+A PLANT THAT MANUFACTURES IRON PROFILES HAS A BATCH OF N PIECES.
+CREATE A PROGRAM THAT ASKS YOU TO ENTER THE NUMBER OF PIECES TO BE PROCESSED BY KEYBOARD AND THEN ENTER THE LENGTH OF EACH PROFILE; KNOWING THAT THE PIECE WHOSE LENGTH IS BETWEEN 1.20 AND 1.30 ARE SUITABLE. PRINT ON THE SCREEN THE NUMBER OF SUITABLE PIECES IN THE LOT.
+
+We can observe that within a repetitive structure there may be conditional structures (there may even be other repetitive structures that we will see later)
+
+In this problem you must initially load the number of pieces to be entered(n), then n values of piece lengths are loaded. Every time we enter a piece length(length) we verify if it is a correct measurement the length must be between 1.20 and 1.30 for it to be correct, if it is correct we count it we increase the quantity variable by 1.
+
+We initialize the quantity counter to zero because initially no part length has been loaded.
+When we leave the repetitive structure because n lengths of pieces have been loaded, we display the quantity counter on the screen which represents the number of suitable pieces.
+
+in this problem we have two counters:
+x (Counts the number of pieces loaded so far)
+quantity (Counts suitable iron profiles)
+
+program: exercise31.py
+
+quantity=0
+x=1
+n=int(input("How many pieces will you load:"))
+while x<=n:
+    length=float(input("Enter the measurement of the piece:"))
+    if length>=1.2 and length<=1.3:
+        quantity=quantity+1
+x=x+1
+print("The number of suitable pieces are: ")
+print(quantity)
+
+Let´s look at some new things:
+When we want to load a value with decimals from the keyboard, we must use the float function instead of int:
+length=float(input("Enter the measurement of the piece:"))
+
+Proposed problems
+The fundamental part has arrived, which is the moment where one individually develops an algorithm for solving problems.
+the time to dedicate to this proposed exercises section should be much greater that that spent on the solved exercises section.
+Experience says that we should dedicate 80% of the time to individual problem solving and the other 20% to analyzing and coding problems already solved by other people.
+
+It is vitally important to become a good programmer to be able to solve problems individually.
+
+WRITE A PROGRAM THAT REQUEST TO ENTER 10 STUDENT GRADES AND INFORMS US HOW MANY HAVE GRADES GREATER THAN OR EQUAL TO 7 AND HOW MANY HAVE GRADES GREATER THAN OR EQUAL TO 7 AND HOW MANY HAVE GRADES LOWER THAN OR EQUAL TO 7. 
+
+A SET OF N PERSON HEIGTS ARE ENTERED PER KEYBOARD. SHOW THE AVERAGE HEIGHT OF PEOPLE.
+
+IN A COMPANY THERE ARE N EMPLOYEES WHOSE SALARIES RANGE BETWEEN $100 AND $500, CREATE A PROGRAM THAT READS THE SALARIES THAT EACH EMPLOYEE EARNS AND REPORTS HOW MANY EMPLOYEES EARN BETWEEN $100 AND $300 AND HOW MANY EARN MORE THAN $300. ADDITIONALLY, THE PROGRAM MUST REPORT THE AMOUNT THE COMPANY SPENDS ON STAFF SALARIES.
+
+CREATE A PROGRAM THAT PRINTS 25 TERMS OF THE SERIES 11-22-33-44 ETC(VALUES ARE NOT ENTERED BY KEYBOARD)
+
+SHOW MULTIPLES OF 8 UP TO THE VALUE 500. 8-16-24, ETC. SHOULD APPEAR ON THE SCREEN.
+
+CREATE A PROGRAM THAT ALLOWS YOU TO LOAD TWO LISTS OF 15 VALUES EACH. INFORM WITH A MESSAGE WHICH OF THE TWO LISTS HAS A GREATER ACCUMULATED VALUE(MESSAGES LIST 1 GREATER, LIST2 GREATER, LIST EQUAL)
+KEEP IN MIND THAT THERE MAY BE TWO OR MORE REPETITIVE STRUCTURES IN AN ALGORITHM.
+
+DEVELOP A PROGRAM THAT ALLOWS US TO LOAD N INTEGERS AND THEN INFORM US HOW MANY VALUES WERE EVEN AND HOW MANY WERE ODD.
+USE THE % OPERATOR IN THE CONDITION OF THE CONDITIONAL STRUCTURE(THIS OPERATOR RETURNS THE REMAINDER OF THE DIVISION OF TWO VALUES, FOR EXAMPLE 11%2 RETURNS A 1)
+
+if value%2==0:
